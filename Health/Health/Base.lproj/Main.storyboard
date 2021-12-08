@@ -118,9 +118,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="qF0-aJ-QVs"/>
                     <connections>
-                        <outlet property="BMi" destination="Csg-uq-1pd" id="mZS-ms-NCn"/>
-                        <outlet property="activite" destination="Cdq-EY-4Gz" id="o3o-D6-4rL"/>
-                        <outlet property="food" destination="Tlv-Hc-A5n" id="kQh-kL-oRN"/>
+                        <outlet property="BMi" destination="Csg-uq-1pd" id="BOe-KZ-T2y"/>
+                        <outlet property="activite" destination="Cdq-EY-4Gz" id="xCa-z6-lag"/>
+                        <outlet property="food" destination="Tlv-Hc-A5n" id="Gof-Dv-wqF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IGC-l8-cVW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -836,7 +836,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="tfc-1x-o7P">
             <objects>
-                <tabBarController id="EiY-nT-3mW" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="123" id="EiY-nT-3mW" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="psW-FR-zV0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
