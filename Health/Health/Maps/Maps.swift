@@ -44,8 +44,20 @@ class Maps: UIViewController{
         annotation3.subtitle = "Gem Club"
         MapsView.addAnnotation (annotation3)
         
-
-        let region = MKCoordinateRegion(center: annotation.coordinate, latitudinalMeters: 10000, longitudinalMeters: 10000)
+//        18.220036, 42.500171
+        let annotation4 = MKPointAnnotation()
+        annotation4.coordinate = CLLocationCoordinate2D(latitude: 18.220036, longitude: 42.500171)
+        annotation4.title = "Body Masters"
+        annotation4.subtitle = "Gem Club"
+        MapsView.addAnnotation (annotation4)
+//        18.833091,42.037746
+        let annotation5 = MKPointAnnotation()
+        annotation5.coordinate = CLLocationCoordinate2D(latitude: 18.220036, longitude: 42.500171)
+        annotation5.title = "Diet Station"
+        annotation5.subtitle = "Healthy Food"
+        MapsView.addAnnotation (annotation5)
+        
+        let region = MKCoordinateRegion(center: annotation2.coordinate, latitudinalMeters: 10000, longitudinalMeters: 10000)
         MapsView.setRegion(region, animated: true)
     }
     

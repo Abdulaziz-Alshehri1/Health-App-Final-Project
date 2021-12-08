@@ -21,7 +21,7 @@
 		895B34FE274E256500AAD39A /* GoalsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895B34FD274E256500AAD39A /* GoalsCell.swift */; };
 		897FCC2C275E18D000FB4C4B /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897FCC2B275E18D000FB4C4B /* HealthKit.framework */; };
 		897FCC2F275E194800FB4C4B /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897FCC2E275E194800FB4C4B /* Steps.swift */; };
-		897FCC31275E1CAE00FB4C4B /* FootStepsTests in Resources */ = {isa = PBXBuildFile; fileRef = 897FCC30275E1CAE00FB4C4B /* FootStepsTests */; };
+		897FCC31275E1CAE00FB4C4B /* FootStepsTests1 in Resources */ = {isa = PBXBuildFile; fileRef = 897FCC30275E1CAE00FB4C4B /* FootStepsTests1 */; };
 		897FCC33275E1CB800FB4C4B /* FootStepsUITests in Resources */ = {isa = PBXBuildFile; fileRef = 897FCC32275E1CB800FB4C4B /* FootStepsUITests */; };
 		89BDBF5B274FC7B600453BC9 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BDBF5A274FC7B600453BC9 /* HomeScreen.swift */; };
 		89C3DF6A2754C1A00060F20B /* foodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3DF662754C1A00060F20B /* foodCell.swift */; };
@@ -62,7 +62,7 @@
 		897FCC2A275E18D000FB4C4B /* Health.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Health.entitlements; sourceTree = "<group>"; };
 		897FCC2B275E18D000FB4C4B /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		897FCC2E275E194800FB4C4B /* Steps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
-		897FCC30275E1CAE00FB4C4B /* FootStepsTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FootStepsTests; sourceTree = "<group>"; };
+		897FCC30275E1CAE00FB4C4B /* FootStepsTests1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FootStepsTests1; sourceTree = "<group>"; };
 		897FCC32275E1CB800FB4C4B /* FootStepsUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FootStepsUITests; sourceTree = "<group>"; };
 		89BDBF5A274FC7B600453BC9 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		89C3DF662754C1A00060F20B /* foodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodCell.swift; sourceTree = "<group>"; };
@@ -149,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				897FCC2E275E194800FB4C4B /* Steps.swift */,
+				897FCC30275E1CAE00FB4C4B /* FootStepsTests1 */,
+				897FCC32275E1CB800FB4C4B /* FootStepsUITests */,
 			);
 			path = "Steps Group";
 			sourceTree = "<group>";
@@ -199,8 +201,6 @@
 			isa = PBXGroup;
 			children = (
 				89DDC878274D02BC003A1F79 /* Health */,
-				897FCC30275E1CAE00FB4C4B /* FootStepsTests */,
-				897FCC32275E1CB800FB4C4B /* FootStepsUITests */,
 				89DDC877274D02BC003A1F79 /* Products */,
 				00F541B5D8638902B55F4653 /* Pods */,
 				298FD7CC906A3DB4B4305E91 /* Frameworks */,
@@ -222,13 +222,13 @@
 				8906C5922754B7640080E7BB /* GoogleService-Info.plist */,
 				89DDC879274D02BC003A1F79 /* AppDelegate.swift */,
 				89DDC87B274D02BC003A1F79 /* SceneDelegate.swift */,
-				897FCC2D275E190D00FB4C4B /* Steps Group */,
 				89BD8A3B2757AC7D00D028AB /* Sign&GoalsList */,
 				89C3DF6E2754C20C0060F20B /* Activites Group */,
 				89C3DF652754C1770060F20B /* Food Group */,
 				8906C5722754AEF10080E7BB /* BMI Group */,
 				894F3686275611BA00198438 /* Sleep Arrangement */,
 				893F1BDF275F587700AE4997 /* Maps */,
+				897FCC2D275E190D00FB4C4B /* Steps Group */,
 				89DDC87F274D02BC003A1F79 /* Main.storyboard */,
 				89DDC882274D02BE003A1F79 /* Assets.xcassets */,
 				89DDC884274D02BE003A1F79 /* LaunchScreen.storyboard */,
@@ -311,7 +311,7 @@
 				89DDC881274D02BC003A1F79 /* Main.storyboard in Resources */,
 				8906C5932754B7640080E7BB /* GoogleService-Info.plist in Resources */,
 				894F368C27563C2200198438 /* v7.MOV in Resources */,
-				897FCC31275E1CAE00FB4C4B /* FootStepsTests in Resources */,
+				897FCC31275E1CAE00FB4C4B /* FootStepsTests1 in Resources */,
 				89C3DF752754C23D0060F20B /* v3.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

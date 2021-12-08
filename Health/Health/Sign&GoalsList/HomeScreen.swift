@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 
-class main: UIViewController{
+class HomeVC: UIViewController{
     
     
     @IBOutlet weak var activite: UIButton!

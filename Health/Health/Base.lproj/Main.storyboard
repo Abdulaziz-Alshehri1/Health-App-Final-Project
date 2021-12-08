@@ -41,7 +41,7 @@
         <!--Home-->
         <scene sceneID="GHc-py-2wh">
             <objects>
-                <viewController id="Ep1-Qo-jFL" customClass="main" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ep1-Qo-jFL" customClass="HomeVC" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wtI-cT-qcE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
