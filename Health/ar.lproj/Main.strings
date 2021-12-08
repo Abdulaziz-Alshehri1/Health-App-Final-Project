@@ -1,0 +1,105 @@
+
+/* Class = "UITabBarItem"; title = "Goals"; ObjectID = "2Ag-AI-NSA"; */
+"2Ag-AI-NSA.title" = "Goals";
+
+/* Class = "UILabel"; text = "The ideal Sleep Rnge : "; ObjectID = "4MH-zb-2lf"; */
+"4MH-zb-2lf.text" = "The ideal Sleep Rnge : ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "64q-Pk-6xq"; */
+"64q-Pk-6xq.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Sleepy"; ObjectID = "9Vq-jz-BTp"; */
+"9Vq-jz-BTp.title" = "Sleepy";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Akh-k6-Xv2"; */
+"Akh-k6-Xv2.text" = "-";
+
+/* Class = "UILabel"; text = "BMI Scale"; ObjectID = "CS3-y1-Guv"; */
+"CS3-y1-Guv.text" = "BMI Scale";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Cdq-EY-4Gz"; */
+"Cdq-EY-4Gz.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Csg-uq-1pd"; */
+"Csg-uq-1pd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Deu-7e-Eag"; */
+"Deu-7e-Eag.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Sleep"; ObjectID = "HJK-ly-BD0"; */
+"HJK-ly-BD0.title" = "Sleep";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "Hvg-SG-WkS"; */
+"Hvg-SG-WkS.text" = ":";
+
+/* Class = "UISearchBar"; placeholder = "Search any dish"; ObjectID = "JNA-uE-Feq"; */
+"JNA-uE-Feq.placeholder" = "Search any dish";
+
+/* Class = "UITextField"; placeholder = "Enter weight"; ObjectID = "MFe-2l-xEi"; */
+"MFe-2l-xEi.placeholder" = "Enter weight";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Spw-e2-kax"; */
+"Spw-e2-kax.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Tlv-Hc-A5n"; */
+"Tlv-Hc-A5n.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Enter height"; ObjectID = "UsO-D8-Gho"; */
+"UsO-D8-Gho.placeholder" = "Enter height";
+
+/* Class = "UILabel"; text = "I have to wake up at:"; ObjectID = "Wd1-AK-SPc"; */
+"Wd1-AK-SPc.text" = "I have to wake up at:";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "XUp-uZ-wOz"; */
+"XUp-uZ-wOz.text" = "Password";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YVu-Wj-92D"; */
+"YVu-Wj-92D.text" = "Label";
+
+/* Class = "UILabel"; text = "from:"; ObjectID = "ZP1-3P-SH0"; */
+"ZP1-3P-SH0.text" = "from:";
+
+/* Class = "UITabBarItem"; title = "store"; ObjectID = "aAb-I3-fmj"; */
+"aAb-I3-fmj.title" = "store";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "bOc-Dz-f4y"; */
+"bOc-Dz-f4y.configuration.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bOc-Dz-f4y"; */
+"bOc-Dz-f4y.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fHa-Zd-CNx"; */
+"fHa-Zd-CNx.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "(minutes)"; ObjectID = "fxg-uz-aVq"; */
+"fxg-uz-aVq.placeholder" = "(minutes)";
+
+/* Class = "UIButton"; configuration.title = "sign"; ObjectID = "i8C-TP-bIl"; */
+"i8C-TP-bIl.configuration.title" = "sign";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "i8C-TP-bIl"; */
+"i8C-TP-bIl.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "to:"; ObjectID = "lzf-3Q-wax"; */
+"lzf-3Q-wax.text" = "to:";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "ono-BE-SmI"; */
+"ono-BE-SmI.text" = "Email";
+
+/* Class = "UITextField"; placeholder = "(hours)"; ObjectID = "ou1-I9-aAi"; */
+"ou1-I9-aAi.placeholder" = "(hours)";
+
+/* Class = "UILabel"; text = "Best Way to Be Healthy..👍"; ObjectID = "q5V-aJ-xW5"; */
+"q5V-aJ-xW5.text" = "Best Way to Be Healthy..👍";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "qF0-aJ-QVs"; */
+"qF0-aJ-QVs.title" = "Home";
+
+/* Class = "UILabel"; text = "AM"; ObjectID = "rN9-D8-jk8"; */
+"rN9-D8-jk8.text" = "AM";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ywP-Rk-6UH"; */
+"ywP-Rk-6UH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "z36-Xs-2CU"; */
+"z36-Xs-2CU.text" = "-";
