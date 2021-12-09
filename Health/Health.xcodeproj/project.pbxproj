@@ -157,15 +157,13 @@
 			path = "Steps Group";
 			sourceTree = "<group>";
 		};
-		89BD8A3B2757AC7D00D028AB /* Sign&GoalsList */ = {
+		89BD8A3B2757AC7D00D028AB /* Goals */ = {
 			isa = PBXGroup;
 			children = (
-				89DDC87D274D02BC003A1F79 /* Sign&Login.swift */,
 				8958B966274D91200090D027 /* GoalsList.swift */,
 				895B34FD274E256500AAD39A /* GoalsCell.swift */,
-				89BDBF5A274FC7B600453BC9 /* HomeScreen.swift */,
 			);
-			path = "Sign&GoalsList";
+			path = Goals;
 			sourceTree = "<group>";
 		};
 		89C3DF652754C1770060F20B /* Food Group */ = {
@@ -220,18 +218,20 @@
 		89DDC878274D02BC003A1F79 /* Health */ = {
 			isa = PBXGroup;
 			children = (
-				89EA26E72760E6E50064E8C4 /* Animation */,
 				897FCC2A275E18D000FB4C4B /* Health.entitlements */,
 				8906C5922754B7640080E7BB /* GoogleService-Info.plist */,
 				89DDC879274D02BC003A1F79 /* AppDelegate.swift */,
 				89DDC87B274D02BC003A1F79 /* SceneDelegate.swift */,
-				89BD8A3B2757AC7D00D028AB /* Sign&GoalsList */,
+				89F9EE442761E6D900E3AFB6 /* Sign & Login */,
+				89F9EE432761E6B900E3AFB6 /* Home */,
+				89BD8A3B2757AC7D00D028AB /* Goals */,
 				89C3DF6E2754C20C0060F20B /* Activites Group */,
 				89C3DF652754C1770060F20B /* Food Group */,
 				8906C5722754AEF10080E7BB /* BMI Group */,
 				894F3686275611BA00198438 /* Sleep Arrangement */,
 				893F1BDF275F587700AE4997 /* Maps */,
 				897FCC2D275E190D00FB4C4B /* Steps Group */,
+				89EA26E72760E6E50064E8C4 /* Animation */,
 				89DDC87F274D02BC003A1F79 /* Main.storyboard */,
 				89DDC882274D02BE003A1F79 /* Assets.xcassets */,
 				89DDC884274D02BE003A1F79 /* LaunchScreen.storyboard */,
@@ -246,6 +246,22 @@
 				89EA26E82760E7010064E8C4 /* Animations.swift */,
 			);
 			path = Animation;
+			sourceTree = "<group>";
+		};
+		89F9EE432761E6B900E3AFB6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				89BDBF5A274FC7B600453BC9 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		89F9EE442761E6D900E3AFB6 /* Sign & Login */ = {
+			isa = PBXGroup;
+			children = (
+				89DDC87D274D02BC003A1F79 /* Sign&Login.swift */,
+			);
+			path = "Sign & Login";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
