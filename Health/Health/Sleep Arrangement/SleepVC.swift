@@ -8,15 +8,16 @@
 import UIKit
 
 
-class SleepVC: UIViewController,UITextFieldDelegate {
+class SleepVC: UIViewController,UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate {
     
     var answer1: String!
     var answer2: String!
     
+    let pickerView = UIPickerView()
     static let sharedInstance = SleepVC()
     
-    var hours = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
-    var minutes = ["50", "30", "10", "00", "-", "-", "-", "-", "-", "-", "-", "-"]
+    var hours = ["4", "5", "6", "7", "8", "9"]
+    var minutes = ["50", "30", "10", "00"]
     
     
     @IBOutlet weak var hoursField: UITextField!
@@ -289,13 +290,91 @@ class SleepVC: UIViewController,UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.pickerView.delegate = self
+        self.pickerView.dataSource = self
+        
+        self.hoursField.inputView = pickerView
+        self.minutesField.inputView = pickerView
+
+        updatePicker()
+
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
             backgroundImage.image = UIImage(named: "background")
             backgroundImage.contentMode = UIView.ContentMode.scaleAspectFit
             self.view.insertSubview(backgroundImage, at: 0)
 
     }
+    func updatePicker() {
+        
+        let pickerView = UIPickerView()
+        pickerView.reloadAllComponents()
+    }
 
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        
+        if hoursField.isFirstResponder == true {
+            
+            return hours.count
+        } else if minutesField.isFirstResponder == true {
+            
+            return minutes.count
+        } else if hoursField.isFirstResponder == false {
+            
+            return minutes.count
+        } else if minutesField.isFirstResponder == false {
+            
+            return hours.count
+        } else {
+            
+            return 0
+        }
+    }
+
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        
+        if hoursField.isFirstResponder == true {
+            
+            return hours[row]
+        } else if minutesField.isFirstResponder == true {
+            
+            return minutes[row]
+        } else if hoursField.isFirstResponder == false {
+            
+            return minutes[row]
+        } else if minutesField.isFirstResponder == false {
+            
+            return hours[row]
+        } else {
+            
+            return ""
+        }
+    }
+
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+        if hoursField.isFirstResponder == true {
+            
+            hoursField.text = hours[row]
+            self.view.endEditing(true)
+        } else if minutesField.isFirstResponder == true {
+            
+            minutesField.text = minutes[row]
+            self.view.endEditing(true)
+        } else if hoursField.isFirstResponder == false {
+            
+            minutesField.text = minutes[row]
+            self.view.endEditing(true)
+        } else if minutesField.isFirstResponder == false {
+            
+            hoursField.text = hours[row]
+            self.view.endEditing(true)
+        }
+    }
 }
 
 

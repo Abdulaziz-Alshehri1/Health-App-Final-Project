@@ -24,6 +24,8 @@
 		897FCC31275E1CAE00FB4C4B /* FootStepsTests1 in Resources */ = {isa = PBXBuildFile; fileRef = 897FCC30275E1CAE00FB4C4B /* FootStepsTests1 */; };
 		897FCC33275E1CB800FB4C4B /* FootStepsUITests in Resources */ = {isa = PBXBuildFile; fileRef = 897FCC32275E1CB800FB4C4B /* FootStepsUITests */; };
 		89BDBF5B274FC7B600453BC9 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BDBF5A274FC7B600453BC9 /* HomeScreen.swift */; };
+		89BEF60A2761EF4C00047D8C /* Nutrition Specialist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF6092761EF4C00047D8C /* Nutrition Specialist.swift */; };
+		89BEF60C2761FBC800047D8C /* Maps InterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF60B2761FBC800047D8C /* Maps InterFace.swift */; };
 		89C3DF6A2754C1A00060F20B /* foodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3DF662754C1A00060F20B /* foodCell.swift */; };
 		89C3DF6B2754C1A00060F20B /* FoodInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3DF672754C1A00060F20B /* FoodInterface.swift */; };
 		89C3DF6C2754C1A00060F20B /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C3DF682754C1A00060F20B /* Food.swift */; };
@@ -42,6 +44,9 @@
 		89DDC881274D02BC003A1F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DDC87F274D02BC003A1F79 /* Main.storyboard */; };
 		89DDC883274D02BE003A1F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DDC882274D02BE003A1F79 /* Assets.xcassets */; };
 		89DDC886274D02BE003A1F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DDC884274D02BE003A1F79 /* LaunchScreen.storyboard */; };
+		89E7CB8D2762734A00E2B5B2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E7CB8A2762734A00E2B5B2 /* Card.swift */; };
+		89E7CB8E2762734A00E2B5B2 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E7CB8B2762734A00E2B5B2 /* Memory.swift */; };
+		89E7CB8F2762734A00E2B5B2 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E7CB8C2762734A00E2B5B2 /* MemoryViewController.swift */; };
 		89EA26E92760E7010064E8C4 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EA26E82760E7010064E8C4 /* Animations.swift */; };
 		F92B0D28B876203A11AC73D9 /* Pods_Health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ED2738D5330EABDE456134 /* Pods_Health.framework */; };
 /* End PBXBuildFile section */
@@ -66,6 +71,8 @@
 		897FCC30275E1CAE00FB4C4B /* FootStepsTests1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FootStepsTests1; sourceTree = "<group>"; };
 		897FCC32275E1CB800FB4C4B /* FootStepsUITests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FootStepsUITests; sourceTree = "<group>"; };
 		89BDBF5A274FC7B600453BC9 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		89BEF6092761EF4C00047D8C /* Nutrition Specialist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Nutrition Specialist.swift"; sourceTree = "<group>"; };
+		89BEF60B2761FBC800047D8C /* Maps InterFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maps InterFace.swift"; sourceTree = "<group>"; };
 		89C3DF662754C1A00060F20B /* foodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodCell.swift; sourceTree = "<group>"; };
 		89C3DF672754C1A00060F20B /* FoodInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodInterface.swift; sourceTree = "<group>"; };
 		89C3DF682754C1A00060F20B /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
@@ -86,6 +93,9 @@
 		89DDC882274D02BE003A1F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89DDC885274D02BE003A1F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89DDC887274D02BE003A1F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E7CB8A2762734A00E2B5B2 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		89E7CB8B2762734A00E2B5B2 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
+		89E7CB8C2762734A00E2B5B2 /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		89EA26E82760E7010064E8C4 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		A1EA9C872464E1489946A674 /* Pods-Health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health.debug.xcconfig"; path = "Target Support Files/Pods-Health/Pods-Health.debug.xcconfig"; sourceTree = "<group>"; };
 		E0ED2738D5330EABDE456134 /* Pods_Health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +144,7 @@
 		893F1BDF275F587700AE4997 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
+				89BEF60B2761FBC800047D8C /* Maps InterFace.swift */,
 				893F1BDD275F46C800AE4997 /* Maps.swift */,
 			);
 			path = Maps;
@@ -170,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				89C3DF692754C1A00060F20B /* model.swift */,
+				89BEF6092761EF4C00047D8C /* Nutrition Specialist.swift */,
 				89C3DF682754C1A00060F20B /* Food.swift */,
 				89C3DF662754C1A00060F20B /* foodCell.swift */,
 				89C3DF672754C1A00060F20B /* FoodInterface.swift */,
@@ -232,12 +244,23 @@
 				893F1BDF275F587700AE4997 /* Maps */,
 				897FCC2D275E190D00FB4C4B /* Steps Group */,
 				89EA26E72760E6E50064E8C4 /* Animation */,
+				89E7CB892762732A00E2B5B2 /* MemoryGame */,
 				89DDC87F274D02BC003A1F79 /* Main.storyboard */,
 				89DDC882274D02BE003A1F79 /* Assets.xcassets */,
 				89DDC884274D02BE003A1F79 /* LaunchScreen.storyboard */,
 				89DDC887274D02BE003A1F79 /* Info.plist */,
 			);
 			path = Health;
+			sourceTree = "<group>";
+		};
+		89E7CB892762732A00E2B5B2 /* MemoryGame */ = {
+			isa = PBXGroup;
+			children = (
+				89E7CB8A2762734A00E2B5B2 /* Card.swift */,
+				89E7CB8B2762734A00E2B5B2 /* Memory.swift */,
+				89E7CB8C2762734A00E2B5B2 /* MemoryViewController.swift */,
+			);
+			path = MemoryGame;
 			sourceTree = "<group>";
 		};
 		89EA26E72760E6E50064E8C4 /* Animation */ = {
@@ -406,11 +429,16 @@
 				894F36882756124A00198438 /* SleepVC.swift in Sources */,
 				897FCC2F275E194800FB4C4B /* Steps.swift in Sources */,
 				89EA26E92760E7010064E8C4 /* Animations.swift in Sources */,
+				89E7CB8E2762734A00E2B5B2 /* Memory.swift in Sources */,
+				89BEF60A2761EF4C00047D8C /* Nutrition Specialist.swift in Sources */,
+				89BEF60C2761FBC800047D8C /* Maps InterFace.swift in Sources */,
 				89C3DF6D2754C1A00060F20B /* model.swift in Sources */,
 				89C3DF6B2754C1A00060F20B /* FoodInterface.swift in Sources */,
 				89C3DF6A2754C1A00060F20B /* foodCell.swift in Sources */,
 				89DDC87A274D02BC003A1F79 /* AppDelegate.swift in Sources */,
+				89E7CB8F2762734A00E2B5B2 /* MemoryViewController.swift in Sources */,
 				89DDC87C274D02BC003A1F79 /* SceneDelegate.swift in Sources */,
+				89E7CB8D2762734A00E2B5B2 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

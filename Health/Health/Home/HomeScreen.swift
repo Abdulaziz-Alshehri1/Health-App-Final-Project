@@ -18,6 +18,8 @@ class HomeVC: UIViewController{
     
     @IBOutlet weak var BMi: UIButton!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
