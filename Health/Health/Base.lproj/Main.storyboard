@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="a7q-aN-MHh">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="786"/>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lco-a2-jPP"/>
@@ -30,15 +30,16 @@
                             <constraint firstItem="a7q-aN-MHh" firstAttribute="top" secondItem="Lco-a2-jPP" secondAttribute="top" id="nLT-uT-aOf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Maps" image="map" catalog="system" id="CAn-QG-Rtj"/>
-                    <navigationItem key="navigationItem" id="8PK-cP-SVF"/>
+                    <navigationItem key="navigationItem" id="8PK-cP-SVF">
+                        <barButtonItem key="backBarButtonItem" title="Maps" id="CMS-bZ-1EQ"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="MapsView" destination="a7q-aN-MHh" id="PBR-fY-HCW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yw6-eP-sFO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3397" y="-32"/>
+            <point key="canvasLocation" x="4694.202898550725" y="-32.142857142857139"/>
         </scene>
         <!--Home-->
         <scene sceneID="GHc-py-2wh">
@@ -274,7 +275,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="51"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="EfN-MK-3AJ" kind="show" id="qm5-jc-etF"/>
+                                    <segue destination="je2-QJ-wEE" kind="show" id="tyT-cF-O1c"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See Healthy Locations 📍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thw-5d-OyV">
@@ -1275,6 +1276,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lV4-lE-clY" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4730" y="-32"/>
+        </scene>
+        <!--Maps-->
+        <scene sceneID="s7l-T3-BPF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="je2-QJ-wEE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Maps" image="map" catalog="system" id="CAn-QG-Rtj"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="qfh-pd-Tsp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4vC-Mm-FCD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EfN-MK-3AJ" kind="relationship" relationship="rootViewController" id="OGq-rP-DhU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yto-Tl-XJi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3571" y="-32"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
