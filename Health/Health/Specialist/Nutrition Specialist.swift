@@ -10,11 +10,15 @@ import UIKit
 
 class DietManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDelegate, UINavigationControllerDelegate{
     
+    @IBOutlet weak var addToDietMenu: UIButton!
     
     var cPic: UIImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        addToDietMenu.layer.cornerRadius = 15
+
     }
     
     
@@ -33,7 +37,7 @@ class DietManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFie
     }
     @IBOutlet weak var newProductName: UITextField!
     
-    @IBOutlet weak var newProductPrice: UITextField!
+//    @IBOutlet weak var newProductPrice: UITextField!
     @IBOutlet weak var newProductSummary: UITextField!
     
     @IBOutlet weak var linkk: UITextField!

@@ -13,8 +13,12 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
     var userId: String?
     var cPic: UIImage!
     
+    @IBOutlet weak var addToFoodMenu: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        addToFoodMenu.layer.cornerRadius = 15
     }
     
     
@@ -33,7 +37,7 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
     }
     @IBOutlet weak var newProductName: UITextField!
     
-    @IBOutlet weak var newProductPrice: UITextField!
+//    @IBOutlet weak var newProductPrice: UITextField!
     @IBOutlet weak var newProductSummary: UITextField!
     
     @IBAction func AddnewProduct(_ sender: Any) {

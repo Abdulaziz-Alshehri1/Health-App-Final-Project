@@ -177,6 +177,14 @@
 			path = "BMI Group";
 			sourceTree = "<group>";
 		};
+		892FF0BB276736E10092DED1 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				894FE422276502380031576B /* Tab.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		893F1BDF275F587700AE4997 /* Maps */ = {
 			isa = PBXGroup;
 			children = (
@@ -309,6 +317,7 @@
 				8906C5922754B7640080E7BB /* GoogleService-Info.plist */,
 				89DDC879274D02BC003A1F79 /* AppDelegate.swift */,
 				89DDC87B274D02BC003A1F79 /* SceneDelegate.swift */,
+				892FF0BB276736E10092DED1 /* TabBar */,
 				89F9EE442761E6D900E3AFB6 /* Sign & Login */,
 				89F9EE432761E6B900E3AFB6 /* Home */,
 				89BD8A3B2757AC7D00D028AB /* Goals */,
@@ -326,7 +335,6 @@
 				89DDC882274D02BE003A1F79 /* Assets.xcassets */,
 				89DDC884274D02BE003A1F79 /* LaunchScreen.storyboard */,
 				89DDC887274D02BE003A1F79 /* Info.plist */,
-				894FE422276502380031576B /* Tab.swift */,
 			);
 			path = Health;
 			sourceTree = "<group>";
