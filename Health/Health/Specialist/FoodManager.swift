@@ -10,7 +10,7 @@ import UIKit
 
 class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDelegate, UINavigationControllerDelegate{
     
-    
+    var userId: String?
     var cPic: UIImage!
     
     override func viewDidLoad() {
