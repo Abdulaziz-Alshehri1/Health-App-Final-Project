@@ -15,6 +15,7 @@ class BMI: UIViewController {
     
     @IBOutlet weak var lebl: UILabel!
     
+    @IBOutlet weak var animationBtn: UIButton!
     
     
     

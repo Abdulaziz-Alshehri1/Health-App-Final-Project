@@ -1,0 +1,213 @@
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "03b-P0-NzX"; */
+"03b-P0-NzX.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Goals"; ObjectID = "2Ag-AI-NSA"; */
+"2Ag-AI-NSA.title" = "الاهداف";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "30u-kE-vfU"; */
+"30u-kE-vfU.title" = "Item";
+
+/* Class = "UILabel"; text = "The ideal Sleep Range : "; ObjectID = "4MH-zb-2lf"; */
+"4MH-zb-2lf.text" = "نطاق النوم المثالي : ";
+
+/* Class = "UILabel"; text = "Flips: 0"; ObjectID = "59B-yP-gLa"; */
+"59B-yP-gLa.text" = "Flips: 0";
+
+/* Class = "UITextField"; placeholder = "Description"; ObjectID = "5bf-2J-JmM"; */
+"5bf-2J-JmM.placeholder" = "الوصف";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5nl-eS-dDI"; */
+"5nl-eS-dDI.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "64q-Pk-6xq"; */
+"64q-Pk-6xq.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6L1-Gd-fVC"; */
+"6L1-Gd-fVC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "AbdulazizAmer8@gmail.com"; ObjectID = "72o-6j-Rzw"; */
+"72o-6j-Rzw.text" = "AbdulazizAmer8@gmail.com";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9M0-er-28G"; */
+"9M0-er-28G.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "Akh-k6-Xv2"; */
+"Akh-k6-Xv2.text" = "-";
+
+/* Class = "UILabel"; text = "To join us as a nutritionist / contact us via"; ObjectID = "BJP-nK-4d9"; */
+"BJP-nK-4d9.text" = "تواصل معنا للانضمام كأخصائي تغذية";
+
+/* Class = "UITabBarItem"; title = "Maps"; ObjectID = "CAn-QG-Rtj"; */
+"CAn-QG-Rtj.title" = "اماكن صحية";
+
+/* Class = "UIBarButtonItem"; title = "Maps"; ObjectID = "CMS-bZ-1EQ"; */
+"CMS-bZ-1EQ.title" = "اماكن صحية";
+
+/* Class = "UILabel"; text = "BMI Scale"; ObjectID = "CS3-y1-Guv"; */
+"CS3-y1-Guv.text" = "كتلة الجسم";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Cdq-EY-4Gz"; */
+"Cdq-EY-4Gz.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Csg-uq-1pd"; */
+"Csg-uq-1pd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Deu-7e-Eag"; */
+"Deu-7e-Eag.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Maps"; ObjectID = "FhN-Xx-Q9Y"; */
+"FhN-Xx-Q9Y.title" = "اماكن صحية";
+
+/* Class = "UILabel"; text = ":"; ObjectID = "Hvg-SG-WkS"; */
+"Hvg-SG-WkS.text" = ":";
+
+/* Class = "UISearchBar"; placeholder = "Search any dish"; ObjectID = "JNA-uE-Feq"; */
+"JNA-uE-Feq.placeholder" = "البحث عن وصفة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Kyj-iL-NU2"; */
+"Kyj-iL-NU2.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LJF-aQ-8bl"; */
+"LJF-aQ-8bl.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Enter weight"; ObjectID = "MFe-2l-xEi"; */
+"MFe-2l-xEi.placeholder" = "الوزن";
+
+/* Class = "UITabBarItem"; title = "Diet"; ObjectID = "SUM-jf-WpK"; */
+"SUM-jf-WpK.title" = "الدايت";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "SmE-nU-tAF"; */
+"SmE-nU-tAF.placeholder" = "آلايميل";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Spw-e2-kax"; */
+"Spw-e2-kax.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "PassWord"; ObjectID = "TDF-z7-cxf"; */
+"TDF-z7-cxf.placeholder" = "كلمة المرور";
+
+/* Class = "UITextField"; placeholder = "name"; ObjectID = "TOI-cv-pbO"; */
+"TOI-cv-pbO.placeholder" = "name";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Tlv-Hc-A5n"; */
+"Tlv-Hc-A5n.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Add To Diet list"; ObjectID = "UDq-Nt-yfF"; */
+"UDq-Nt-yfF.configuration.title" = "اضافة لقائمة الدايت";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UDq-Nt-yfF"; */
+"UDq-Nt-yfF.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "UcW-JI-KA8"; */
+"UcW-JI-KA8.title" = "الرئيسية";
+
+/* Class = "UITextField"; placeholder = "Enter height"; ObjectID = "UsO-D8-Gho"; */
+"UsO-D8-Gho.placeholder" = "الطول";
+
+/* Class = "UILabel"; text = "I have to wake up at:"; ObjectID = "Wd1-AK-SPc"; */
+"Wd1-AK-SPc.text" = "اود الاستيقاظ عند ";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "XUp-uZ-wOz"; */
+"XUp-uZ-wOz.text" = "كلمة المرور";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YVu-Wj-92D"; */
+"YVu-Wj-92D.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Yls-Z5-ED2"; */
+"Yls-Z5-ED2.title" = "Item";
+
+/* Class = "UILabel"; text = "from:"; ObjectID = "ZP1-3P-SH0"; */
+"ZP1-3P-SH0.text" = "from:";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Zzd-yn-owM"; */
+"Zzd-yn-owM.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Healthy Dishes"; ObjectID = "aAb-I3-fmj"; */
+"aAb-I3-fmj.title" = "اطباق صحية";
+
+/* Class = "UITextField"; placeholder = "Description"; ObjectID = "b6O-1H-xXC"; */
+"b6O-1H-xXC.placeholder" = "Description";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "bOc-Dz-f4y"; */
+"bOc-Dz-f4y.configuration.title" = "دخول";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bOc-Dz-f4y"; */
+"bOc-Dz-f4y.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "c5I-Bo-w4I"; */
+"c5I-Bo-w4I.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Link"; ObjectID = "c5h-gc-OCh"; */
+"c5h-gc-OCh.placeholder" = "الرابط";
+
+/* Class = "UITabBarItem"; title = "Steps"; ObjectID = "f6g-4p-RJt"; */
+"f6g-4p-RJt.title" = "الخطوات";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fHa-Zd-CNx"; */
+"fHa-Zd-CNx.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "(minutes)"; ObjectID = "fxg-uz-aVq"; */
+"fxg-uz-aVq.placeholder" = "(الدقائق)";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "g5p-0n-gwh"; */
+"g5p-0n-gwh.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Start"; ObjectID = "hnJ-A8-VaI"; */
+"hnJ-A8-VaI.text" = "ابدأ";
+
+/* Class = "UIButton"; configuration.title = "sign"; ObjectID = "i8C-TP-bIl"; */
+"i8C-TP-bIl.configuration.title" = "التسجيل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "i8C-TP-bIl"; */
+"i8C-TP-bIl.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "to:"; ObjectID = "lzf-3Q-wax"; */
+"lzf-3Q-wax.text" = "الى:";
+
+/* Class = "UISearchBar"; placeholder = "Search any Diet "; ObjectID = "mmb-Jk-rue"; */
+"mmb-Jk-rue.placeholder" = "البحث في قائمة الدايت";
+
+/* Class = "UIButton"; configuration.title = "Add To Food Menu"; ObjectID = "oBI-Hp-EQW"; */
+"oBI-Hp-EQW.configuration.title" = "اضف للأطباق الصحية";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oBI-Hp-EQW"; */
+"oBI-Hp-EQW.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "ono-BE-SmI"; */
+"ono-BE-SmI.text" = "الايميل";
+
+/* Class = "UITextField"; placeholder = "(hours)"; ObjectID = "ou1-I9-aAi"; */
+"ou1-I9-aAi.placeholder" = "(الساعة)";
+
+/* Class = "UILabel"; text = "Best Way to Be Healthy..👍"; ObjectID = "q5V-aJ-xW5"; */
+"q5V-aJ-xW5.text" = "👍 الطريق الافضل لصحتك";
+
+/* Class = "UILabel"; text = "AM"; ObjectID = "rN9-D8-jk8"; */
+"rN9-D8-jk8.text" = "AM";
+
+/* Class = "UITextField"; placeholder = "name"; ObjectID = "rek-4u-72w"; */
+"rek-4u-72w.placeholder" = "الاسم";
+
+/* Class = "UILabel"; text = "See Healthy Locations 📍"; ObjectID = "thw-5d-OyV"; */
+"thw-5d-OyV.text" = "📍اعثر على الاماكن الصحية ";
+
+/* Class = "UITabBarItem"; title = "Nutrition Specialist"; ObjectID = "uGl-x2-gel"; */
+"uGl-x2-gel.title" = "أخصائي التغذية";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xgw-gV-wdc"; */
+"xgw-gV-wdc.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Sleep"; ObjectID = "y5G-Kl-6wf"; */
+"y5G-Kl-6wf.title" = "النوم";
+
+/* Class = "UIButton"; configuration.title = "logIn"; ObjectID = "yRi-C4-16c"; */
+"yRi-C4-16c.configuration.title" = "الدخول";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yRi-C4-16c"; */
+"yRi-C4-16c.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ywP-Rk-6UH"; */
+"ywP-Rk-6UH.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "z36-Xs-2CU"; */
+"z36-Xs-2CU.text" = "-";
