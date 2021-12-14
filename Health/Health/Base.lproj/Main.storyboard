@@ -855,16 +855,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6L1-Gd-fVC">
-                                <rect key="frame" x="187" y="49" width="48" height="14"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain"/>
-                                <connections>
-                                    <action selector="signn:" destination="K2L-M7-aZB" eventType="touchUpInside" id="cGN-53-YLN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRi-C4-16c">
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRi-C4-16c">
                                 <rect key="frame" x="145" y="457" width="125" height="31"/>
+                                <color key="backgroundColor" red="0.51372551919999998" green="0.71764707569999997" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="6xa-8i-3JW"/>
                                     <constraint firstAttribute="height" constant="31" id="fGs-4V-Uvw"/>
@@ -895,7 +888,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To join us as a nutritionist / contact us " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJP-nK-4d9">
                                 <rect key="frame" x="32" y="545" width="351" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.51372551919999998" green="0.71764707569999997" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-57" translatesAutoresizingMaskIntoConstraints="NO" id="3Gg-7u-1SO">
@@ -913,8 +906,8 @@
                             <constraint firstItem="tpK-JN-gkv" firstAttribute="trailing" secondItem="Led-tA-qF7" secondAttribute="trailing" constant="87" id="46i-tR-hnk"/>
                             <constraint firstItem="tpK-JN-gkv" firstAttribute="trailing" secondItem="yRi-C4-16c" secondAttribute="trailing" constant="144" id="7PC-pj-F1n"/>
                             <constraint firstItem="BJP-nK-4d9" firstAttribute="leading" secondItem="tpK-JN-gkv" secondAttribute="leading" constant="32" id="AX2-sf-odz"/>
+                            <constraint firstItem="Led-tA-qF7" firstAttribute="top" secondItem="tpK-JN-gkv" secondAttribute="top" constant="123" id="BPN-3p-3IV"/>
                             <constraint firstItem="yRi-C4-16c" firstAttribute="top" secondItem="TDF-z7-cxf" secondAttribute="bottom" constant="29" id="DK5-mA-7X5"/>
-                            <constraint firstItem="Led-tA-qF7" firstAttribute="top" secondItem="6L1-Gd-fVC" secondAttribute="bottom" constant="60" id="DNh-rA-4tk"/>
                             <constraint firstItem="tpK-JN-gkv" firstAttribute="trailing" secondItem="BJP-nK-4d9" secondAttribute="trailing" constant="31" id="KAe-2c-0fe"/>
                             <constraint firstItem="3Gg-7u-1SO" firstAttribute="leading" secondItem="tpK-JN-gkv" secondAttribute="leading" constant="191" id="OIj-Za-XXf"/>
                             <constraint firstItem="tpK-JN-gkv" firstAttribute="trailing" secondItem="72o-6j-Rzw" secondAttribute="trailing" constant="41" id="OcT-4J-6iR"/>
@@ -930,11 +923,8 @@
                             <constraint firstItem="72o-6j-Rzw" firstAttribute="top" secondItem="BJP-nK-4d9" secondAttribute="bottom" constant="75" id="ePN-Fr-DKI"/>
                             <constraint firstItem="3Gg-7u-1SO" firstAttribute="top" secondItem="BJP-nK-4d9" secondAttribute="bottom" constant="22" id="fc2-LA-H2g"/>
                             <constraint firstItem="Led-tA-qF7" firstAttribute="leading" secondItem="tpK-JN-gkv" secondAttribute="leading" constant="87" id="fdC-2x-cMt"/>
-                            <constraint firstItem="tpK-JN-gkv" firstAttribute="trailing" secondItem="6L1-Gd-fVC" secondAttribute="trailing" constant="179" id="huS-Gd-WoC"/>
-                            <constraint firstItem="6L1-Gd-fVC" firstAttribute="leading" secondItem="tpK-JN-gkv" secondAttribute="leading" constant="187" id="jxl-wg-j7I"/>
                             <constraint firstItem="tpK-JN-gkv" firstAttribute="trailing" secondItem="3Gg-7u-1SO" secondAttribute="trailing" constant="182" id="m8k-gm-mno"/>
                             <constraint firstItem="TDF-z7-cxf" firstAttribute="top" secondItem="SmE-nU-tAF" secondAttribute="bottom" constant="44" id="wS7-yT-mW9"/>
-                            <constraint firstItem="6L1-Gd-fVC" firstAttribute="top" secondItem="tpK-JN-gkv" secondAttribute="top" constant="49" id="yaD-jG-hwF"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Nutrition Specialist" image="person.fill" catalog="system" id="uGl-x2-gel"/>
@@ -943,7 +933,6 @@
                         <outlet property="Emaill" destination="SmE-nU-tAF" id="Cbb-eH-NLT"/>
                         <outlet property="Passs" destination="TDF-z7-cxf" id="r6U-Jf-ncE"/>
                         <outlet property="loginButton" destination="yRi-C4-16c" id="VQZ-Jk-bxe"/>
-                        <outlet property="signbutton" destination="6L1-Gd-fVC" id="OUk-fE-N0J"/>
                         <segue destination="Exg-am-jff" kind="show" identifier="logIn" id="iNY-mm-dkc"/>
                     </connections>
                 </viewController>
