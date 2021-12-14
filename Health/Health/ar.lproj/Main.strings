@@ -87,7 +87,7 @@
 "TDF-z7-cxf.placeholder" = "كلمة المرور";
 
 /* Class = "UITextField"; placeholder = "name"; ObjectID = "TOI-cv-pbO"; */
-"TOI-cv-pbO.placeholder" = "name";
+"TOI-cv-pbO.placeholder" = "الاسم";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Tlv-Hc-A5n"; */
 "Tlv-Hc-A5n.normalTitle" = "Button";
@@ -117,7 +117,7 @@
 "Yls-Z5-ED2.title" = "Item";
 
 /* Class = "UILabel"; text = "from:"; ObjectID = "ZP1-3P-SH0"; */
-"ZP1-3P-SH0.text" = "from:";
+"ZP1-3P-SH0.text" = "من";
 
 /* Class = "UITabBarItem"; title = "Item"; ObjectID = "Zzd-yn-owM"; */
 "Zzd-yn-owM.title" = "Item";
@@ -180,7 +180,7 @@
 "ou1-I9-aAi.placeholder" = "(الساعة)";
 
 /* Class = "UILabel"; text = "Best Way to Be Healthy..👍"; ObjectID = "q5V-aJ-xW5"; */
-"q5V-aJ-xW5.text" = "👍 الطريق الافضل لصحتك";
+"q5V-aJ-xW5.text" = " الطريق الافضل لصحتك 👍";
 
 /* Class = "UILabel"; text = "AM"; ObjectID = "rN9-D8-jk8"; */
 "rN9-D8-jk8.text" = "AM";
