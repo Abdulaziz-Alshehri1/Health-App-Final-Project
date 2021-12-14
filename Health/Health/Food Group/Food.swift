@@ -17,7 +17,7 @@ class FoodVC: UIViewController{
     
     override func viewDidLoad() {
         
-        
+       
         super.viewDidLoad()
     
     self.DishtImage.layer.cornerRadius = 20
@@ -26,7 +26,7 @@ class FoodVC: UIViewController{
         DishSummary.text = selectedFood?.summary
         DishtImage.image =  selectedFood!.image
     }
-    
+        
 }
     
 }

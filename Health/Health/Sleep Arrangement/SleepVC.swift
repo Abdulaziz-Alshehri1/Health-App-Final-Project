@@ -16,8 +16,8 @@ class SleepVC: UIViewController,UITextFieldDelegate, UIPickerViewDataSource, UIP
     let pickerView = UIPickerView()
     static let sharedInstance = SleepVC()
     
-    var hours = ["-","4", "5", "6", "7", "8","9"]
-    var minutes = ["50", "30", "10", "00"]
+    var hours = ["-","4", "5", "6", "7", "8","9","10","11"]
+    var minutes = ["-","00","10","30","50"]
     
     
     @IBOutlet weak var hoursField: UITextField!

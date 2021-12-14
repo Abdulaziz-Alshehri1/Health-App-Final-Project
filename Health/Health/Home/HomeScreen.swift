@@ -11,24 +11,25 @@ import UIKit
 
 class HomeVC: UIViewController{
     
-    
     @IBOutlet weak var activite: UIButton!
-    
     @IBOutlet weak var food: UIButton!
-    
     @IBOutlet weak var BMi: UIButton!
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.activite.layer.cornerRadius = 30
-        self.food.layer.cornerRadius = 30
-        self.BMi.layer.cornerRadius = 30
-        
-     
-        
+        fixButton(btn: activite, color: .init(named: "AzYellow"))
+        fixButton(btn: food, color: .init(named: "AzGreen"))
+        fixButton(btn: BMi, color: .init(named: "AzRed"))
+    }
+    
+    func fixButton(btn: UIButton, color: UIColor?) {
+        btn.layer.cornerRadius = 30
+        btn.imageView?.layer.cornerRadius = 30
+        btn.imageView?.layer.masksToBounds = true
+        btn.imageView?.clipsToBounds = true
+        btn.imageView?.contentMode = .scaleAspectFill
+        btn.backgroundColor = color
     }
 }
 
