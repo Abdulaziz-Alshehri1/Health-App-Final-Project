@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -159,7 +160,9 @@
                             <outletCollection property="gestureRecognizers" destination="grM-jM-Km6" appends="YES" id="IgJ-eu-eA1"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="UcW-JI-KA8"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="UcW-JI-KA8">
+                        <imageReference key="image" image="homekit" catalog="system" renderingMode="original"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="vt5-qA-sw2"/>
                     <connections>
                         <outlet property="BMi" destination="Csg-uq-1pd" id="BOe-KZ-T2y"/>
@@ -344,7 +347,9 @@
                             <constraint firstItem="thw-5d-OyV" firstAttribute="leading" secondItem="Psd-IN-dhP" secondAttribute="leading" constant="20" id="qLi-HN-8bg"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Maps" image="map" catalog="system" id="FhN-Xx-Q9Y"/>
+                    <tabBarItem key="tabBarItem" title="Maps" id="FhN-Xx-Q9Y">
+                        <imageReference key="image" image="map" catalog="system"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bcu-30-cBF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -734,7 +739,9 @@
                             <constraint firstItem="Ggj-t3-AA2" firstAttribute="trailing" secondItem="z36-Xs-2CU" secondAttribute="trailing" constant="-25" id="wwF-qx-OAc"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Sleep" image="bed.double.fill" catalog="system" id="y5G-Kl-6wf"/>
+                    <tabBarItem key="tabBarItem" title="Sleep" id="y5G-Kl-6wf">
+                        <imageReference key="image" image="bed.double.fill" catalog="system" renderingMode="hierarchical-single"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="button" destination="x9A-Q7-Ulc" id="waB-Pu-V9y"/>
                         <outlet property="first" destination="Akh-k6-Xv2" id="VAk-KM-uHZ"/>
@@ -875,7 +882,7 @@
                                     <constraint firstAttribute="width" constant="240" id="Tea-FE-KbB"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AbdulazizAmer8@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72o-6j-Rzw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HealthJobApplication@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72o-6j-Rzw">
                                 <rect key="frame" x="49" y="640" width="324" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="324" id="UJ5-HX-6kJ"/>
@@ -1065,7 +1072,8 @@
                     <tabBar key="tabBar" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" id="psW-FR-zV0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.97405010461807251" green="0.92740792675978456" blue="0.81146654479183622" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.99484987910260858" green="0.9508605591104029" blue="0.84514242969884046" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" systemColor="systemBackgroundColor"/>
                     </tabBar>
                     <connections>
                         <outlet property="tab" destination="psW-FR-zV0" id="6dY-DE-EZu"/>
@@ -1452,7 +1460,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lV4-lE-clY" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4554" y="723"/>
+            <point key="canvasLocation" x="-4555.072463768116" y="722.54464285714278"/>
         </scene>
         <!--Maps-->
         <scene sceneID="s7l-T3-BPF">
@@ -1483,6 +1491,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.84971678318436616" green="0.84971678318436616" blue="0.84971678318436616" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="iq5-0x-fyc" kind="relationship" relationship="viewControllers" id="cm1-26-cKP"/>
@@ -1764,7 +1774,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Has-Ol-xeq"/>
-        <segue reference="g0h-Ue-GXE"/>
+        <segue reference="n20-U9-tWO"/>
         <segue reference="2Fj-wO-Csb"/>
     </inferredMetricsTieBreakers>
     <resources>

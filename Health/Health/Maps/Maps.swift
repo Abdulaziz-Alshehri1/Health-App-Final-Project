@@ -16,8 +16,8 @@ class Maps: UIViewController{
 //        18.228019, 42.542675
         let annotation = MKPointAnnotation()
         annotation.coordinate = CLLocationCoordinate2D(latitude: 18.228019, longitude: 42.542675)
-        annotation.title = "Golds Gem"
-        annotation.subtitle = "Gem Club"
+        annotation.title = "Golds Gym"
+        annotation.subtitle = "Gym Club"
         MapsView.addAnnotation (annotation)
         
 //        18.219572, 42.528305
@@ -41,14 +41,14 @@ class Maps: UIViewController{
         let annotation3 = MKPointAnnotation()
         annotation3.coordinate = CLLocationCoordinate2D(latitude: 18.216992, longitude: 42.479332)
         annotation3.title = "Fitness Time"
-        annotation3.subtitle = "Gem Club"
+        annotation3.subtitle = "Gym Club"
         MapsView.addAnnotation (annotation3)
         
 //        18.220036, 42.500171
         let annotation4 = MKPointAnnotation()
         annotation4.coordinate = CLLocationCoordinate2D(latitude: 18.220036, longitude: 42.500171)
         annotation4.title = "Body Masters"
-        annotation4.subtitle = "Gem Club"
+        annotation4.subtitle = "Gym Club"
         MapsView.addAnnotation (annotation4)
 //        18.833091,42.037746
         let annotation5 = MKPointAnnotation()
