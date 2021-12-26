@@ -37,7 +37,9 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
         
         cPic = image
         dismiss(animated: true)
+        
     }
+    
     @IBOutlet weak var newProductName: UITextField!
     
 //    @IBOutlet weak var newProductPrice: UITextField!
@@ -47,8 +49,9 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
         
         var pr = Food(name: newProductName.text!,
                          image: cPic,
-                         summary: newProductSummary.text!)
-//                         price: newProductPrice.text!)
+          
+                      summary: newProductSummary.text!)
+
         
         allFood.append(pr)
         

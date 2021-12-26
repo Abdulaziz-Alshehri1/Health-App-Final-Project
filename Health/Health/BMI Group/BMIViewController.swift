@@ -17,6 +17,7 @@ class BMI: UIViewController {
     
     @IBOutlet weak var animationBtn: UIButton!
     
+    @IBOutlet weak var StatementlLbl: UILabel!
     
     
 
@@ -36,7 +37,19 @@ class BMI: UIViewController {
         let b = Float(weightt.text!)
         let b1 = bmii(hi: a!, wi: b!)
         lebl.text = String(b1.bmi())
-                
+        
+        let finalAns = lebl
+        
+//        if (finalAns <= 18){
+//            StatementlLbl.text = "You are underweight!"
+//        } else if (finalAns >= 18 && finalAns <= 24){
+//            StatementlLbl.text = "You have a normal weight!"
+//        } else if (finalAns >= 25 && finalAns <= 29){
+//            StatementlLbl.text = "You are overweight!"
+//        }
+//        else {
+//            StatementlLbl.text = "You are obese!"
+//        }
     }
     
 }

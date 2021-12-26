@@ -12,6 +12,7 @@
 		8906C5932754B7640080E7BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8906C5922754B7640080E7BB /* GoogleService-Info.plist */; };
 		892FF0C4276782420092DED1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 892FF0C6276782420092DED1 /* Localizable.strings */; };
 		893F1BDE275F46C800AE4997 /* Maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F1BDD275F46C800AE4997 /* Maps.swift */; };
+		8949E8212778870300F550F3 /* BMIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8949E8202778870300F550F3 /* BMIVC.swift */; };
 		894F36882756124A00198438 /* SleepVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894F36872756124A00198438 /* SleepVC.swift */; };
 		894F368A27563C0C00198438 /* v6.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 894F368927563C0C00198438 /* v6.MOV */; };
 		894F368C27563C2200198438 /* v7.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 894F368B27563C2200198438 /* v7.MOV */; };
@@ -81,6 +82,7 @@
 		892FF0C5276782420092DED1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		892FF0C7276782440092DED1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		893F1BDD275F46C800AE4997 /* Maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maps.swift; sourceTree = "<group>"; };
+		8949E8202778870300F550F3 /* BMIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIVC.swift; sourceTree = "<group>"; };
 		894F36872756124A00198438 /* SleepVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepVC.swift; sourceTree = "<group>"; };
 		894F368927563C0C00198438 /* v6.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = v6.MOV; sourceTree = "<group>"; };
 		894F368B27563C2200198438 /* v7.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = v7.MOV; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		8906C5722754AEF10080E7BB /* BMI Group */ = {
 			isa = PBXGroup;
 			children = (
+				8949E8202778870300F550F3 /* BMIVC.swift */,
 				8906C5742754AF070080E7BB /* BMi.swift */,
 				8906C5732754AF070080E7BB /* BMIViewController.swift */,
 			);
@@ -544,6 +547,7 @@
 				89E7CB8E2762734A00E2B5B2 /* Memory.swift in Sources */,
 				89BEF60A2761EF4C00047D8C /* FoodManager.swift in Sources */,
 				89BEF60C2761FBC800047D8C /* Maps InterFace.swift in Sources */,
+				8949E8212778870300F550F3 /* BMIVC.swift in Sources */,
 				89C3DF6D2754C1A00060F20B /* model.swift in Sources */,
 				89C8A6002766309600678199 /* ModelDiet.swift in Sources */,
 				89C3DF6B2754C1A00060F20B /* FoodInterface.swift in Sources */,

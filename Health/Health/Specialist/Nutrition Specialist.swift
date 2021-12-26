@@ -20,7 +20,7 @@ class DietManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFie
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addToDietMenu.layer.cornerRadius = 15
+        addToDietMenu.layer.cornerRadius = 16
 
     }
     
