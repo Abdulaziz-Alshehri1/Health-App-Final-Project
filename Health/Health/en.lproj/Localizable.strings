@@ -48,3 +48,8 @@
 
 "Minty lamb with beetroot and charred broccoli" = "Minty lamb with beetroot and charred broccoli";
 "Desc-8" ="Whiz the fresh mint, parsley, pine nuts, parmesan and garlic in a food processor until a paste. Gradually add 1/2 cup (125ml) oil and whiz until combined. Set aside. 2. Brush lamb with a little extra oil, then season and coat in dried mint. In a separate bowl, toss broccoli and 1 tbs oil. Preheat a chargrill pan to medium-high heat. 3. Cook broccoli, turning, for 3-4 minutes until lightly charred. Set aside. Cook lamb for 4 minutes each side for medium-rare or until cooked to your liking. 4. Whisk the lemon juice and remaining 1 tbs oil together in a bowl. Season. 5. Arrange broccoli, watercress, beetroot and feta on a platter. Top with the lamb, then drizzle over lemon dressing and mint pesto to serve.";
+
+"status1" = "You are underweight!";
+"status2" = "You have a normal weight";
+"status3" = "You are overweight!";
+"status4" = "You are obese!";

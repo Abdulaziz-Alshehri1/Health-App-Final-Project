@@ -26,6 +26,8 @@ class BMIViewController: UIViewController {
             backgroundImage.image = UIImage(named: "ss")
             backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
             self.view.insertSubview(backgroundImage, at: 0)
+        
+        statementLbl.layer.cornerRadius = 15
     }
     
     @IBAction func calculateBtn(_ sender: Any) {
@@ -33,19 +35,19 @@ class BMIViewController: UIViewController {
         let height = (heightTxtField.text! as NSString).floatValue
         let height2 = height/100
         
-        let finalAns = weight/(height2*height2)
+        let bodyStatus = weight/(height2*height2)
                 
-        BMITotalLbl.text = String(format: "%.2f", finalAns)
+        BMITotalLbl.text = String(format: "%.2f", bodyStatus)
         
-        if (finalAns <= 18){
-            statementLbl.text = "You are underweight!"
-        } else if (finalAns >= 18 && finalAns <= 24){
-            statementLbl.text = "You have a normal weight!"
-        } else if (finalAns >= 25 && finalAns <= 29){
-            statementLbl.text = "You are overweight!"
+        if (bodyStatus <= 18){
+            statementLbl.text = NSLocalizedString("status1", comment: "")
+        } else if (bodyStatus >= 18 && bodyStatus <= 24){
+            statementLbl.text = NSLocalizedString("status2", comment: "")
+        } else if (bodyStatus >= 25 && bodyStatus <= 29){
+            statementLbl.text = NSLocalizedString("status3", comment: "")
         }
         else {
-            statementLbl.text = "You are obese!"
+            statementLbl.text = NSLocalizedString("status4", comment: "")
         }
     }
 }
