@@ -9,6 +9,18 @@
       "scale" : "1x"
     },
     {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
       "appearances" : [
         {
           "appearance" : "luminosity",
@@ -33,7 +45,7 @@
       "scale" : "2x"
     },
     {
-      "filename" : "Image.png",
+      "filename" : "Image-1.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -44,7 +56,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Image-1.png",
+      "filename" : "Image-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

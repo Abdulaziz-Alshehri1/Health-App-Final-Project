@@ -60,9 +60,18 @@ class DietInterFace: UIViewController,UICollectionViewDelegate,UICollectionViewD
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier != "show_product" {
+              return
+            }
         let productVC  = segue.destination as! DietVC
+        
         productVC.selectedFood = sender as? Diet
+        
+     
     }
+    
+  
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

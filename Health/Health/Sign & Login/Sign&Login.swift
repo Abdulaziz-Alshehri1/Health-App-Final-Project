@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
         self.login.layer.cornerRadius = 10
         
-        
+        PassTF.isSecureTextEntry = true
     }
     
     @IBAction func Sign(_ sender: Any) {

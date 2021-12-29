@@ -18,10 +18,13 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
     
     @IBOutlet weak var addToFoodMenu: UIButton!
     
+  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         addToFoodMenu.layer.cornerRadius = 15
+       
     }
     
     
@@ -55,9 +58,14 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
         
         allFood.append(pr)
         
+        
+        
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
     }
+    
+    
+    
 }

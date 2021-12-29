@@ -59,6 +59,10 @@ class FoodInterFace: UIViewController,UICollectionViewDelegate,UICollectionViewD
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier != "show_product" {
+              return
+            }
         let productVC  = segue.destination as! FoodVC
         productVC.selectedFood = sender as? Food
     }

@@ -84,7 +84,7 @@
 "Spw-e2-kax.text" = "Label";
 
 /* Class = "UITextField"; placeholder = "PassWord"; ObjectID = "TDF-z7-cxf"; */
-"TDF-z7-cxf.placeholder" = "PassWord";
+"TDF-z7-cxf.placeholder" = "Password";
 
 /* Class = "UITextField"; placeholder = "name"; ObjectID = "TOI-cv-pbO"; */
 "TOI-cv-pbO.placeholder" = "name";

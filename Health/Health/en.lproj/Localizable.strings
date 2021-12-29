@@ -53,3 +53,14 @@
 "status2" = "You have a normal weight";
 "status3" = "You are overweight!";
 "status4" = "You are obese!";
+
+
+
+"W1" = "Welcome ";
+"11" = "..Here your Goals 🎯";
+"T1" = "Goals";
+"T2" = "Add New Goal";
+"T3" = "Add";
+"T4" = "Cancel";
+
+

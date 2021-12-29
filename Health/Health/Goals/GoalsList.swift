@@ -57,23 +57,26 @@ class TodoView: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
         let value = snapshot.value as? NSDictionary
         let email = value!["email"] as? String
-        self.welcomeLabel.text = "Welcome " + email! + "...Here your Goals 🎯"
+            self.welcomeLabel.text =  NSLocalizedString("W1", comment: "") + email! + NSLocalizedString("11", comment: "")
         }
         
     }
     
     
     @IBAction func logout(_ sender: Any) {
+        
         try! Auth.auth().signOut()
         self.dismiss(animated: true, completion: nil)
+        
+        
     }
     
     @IBAction func addTodo(_ sender: Any) {
         
         
-        let todoAlert = UIAlertController(title: "Goals", message: "Add a New Goal", preferredStyle: .alert)
+        let todoAlert = UIAlertController(title: NSLocalizedString("T1", comment: ""), message: NSLocalizedString("T2", comment: ""), preferredStyle: .alert)
         todoAlert.addTextField()
-        let addTodoAction = UIAlertAction(title: "Add", style: .default) { (action) in
+        let addTodoAction = UIAlertAction(title:NSLocalizedString("T3", comment: ""), style: .default) { (action) in
 
         let todoText = todoAlert.textFields![0].text
             self.todos .append(ToDo(isChecked: false, todoname: todoText!))
@@ -81,7 +84,7 @@ class TodoView: UIViewController, UITableViewDelegate, UITableViewDataSource {
         ref.child(todoText!).setValue(["isChecked": false])
         self.todoTV.reloadData()
         }
-        let cancelAction = UIAlertAction(title: "Cancel", style: .default)
+        let cancelAction = UIAlertAction(title:NSLocalizedString("T4", comment: ""), style: .default)
         todoAlert.addAction(addTodoAction)
         todoAlert.addAction(cancelAction)
         present (todoAlert, animated: true, completion: nil)
@@ -162,6 +165,25 @@ Database.database().reference(withPath:"users").child(userId!).child("todos").ch
             
         }
     }
+    
+//    @objc func haB() {
+//
+//        let alert1 = UIAlertController(
+//            title: ("Saved"),
+//            message: "Saved update data",
+//            preferredStyle: .alert)
+//        alert1.addAction(
+//            UIAlertAction(
+//                title: "OK",
+//                style: .default,
+//                handler: { action in
+//                    print("OK")
+//                    self.performSegue(withIdentifier: "12345", sender: nil)
+//                }
+//            )
+//        )
+//        present(alert1, animated: true, completion: nil)
+//    }
 }
 
 

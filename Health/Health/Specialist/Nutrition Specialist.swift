@@ -15,12 +15,15 @@ class DietManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFie
     
     @IBOutlet weak var addToDietMenu: UIButton!
     
+
     var cPic: UIImage!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addToDietMenu.layer.cornerRadius = 16
+        addToDietMenu.layer.cornerRadius = 15
+        
+     
 
     }
     

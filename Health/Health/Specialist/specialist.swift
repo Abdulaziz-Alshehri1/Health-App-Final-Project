@@ -25,6 +25,8 @@ class Specialist: UIViewController{
         super.viewDidLoad()
         
         self.loginButton.layer.cornerRadius = 15
+        
+        Passs.isSecureTextEntry = true
     }
     @IBAction func loggin(_ sender: Any) {
         if Emaill.text != nil && Passs.text != nil {
