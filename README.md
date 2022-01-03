@@ -23,7 +23,7 @@ Health goals,
 Activities,
 Steps Count,
 BMI calculator,
-Memory game.
+Mental game.
 Nutritionist,
 Sleep,
 Food,
@@ -33,18 +33,30 @@ __________________________________________
 
 User Stories:
 
-As a User I can sign and Login to the app so that I can save my Goals on Firebase.
-As a User I can write my Healthy goals in a list and save it on database so that I can do it.
-As a User I can see alot of activities and workouts so that I can practise with it.
-As a user I can count my Steps So that  I can see the number of  Daily steps.
-As a User I can calculate my body mass so that I can reach the desired number.
-As a User I can play a memory game so that I can improve my memory.
-As a User I can browse a list of healthy foods so that I can prepare it.
-As a User I can regulate my sleep so that I can get  the healthy and ideal Sleep.
-As a User I can add Food & Diet System if I am  a Nutritionist so that I can help other Users
-As a User I can browse list of Diet systems so that I can use on of them.
-Aa a User I can use a Dark Mode so that I can relieve the pressure on my eyes.
-As a User I can choose between English and Arabic Languages so that I can use My favorite languages.
+1. As a User I can sign and Login to the app so that I can save my Goals on Firebase.
+
+2. As a User I can write my Healthy goals in a list and save it on database so that I can do it.
+
+3. As a User I can see alot of activities and workouts so that I can practise with it.
+
+4. As a user I can count my Steps So that  I can see the number of  Daily steps.
+
+5. As a User I can calculate my body mass so that I can reach the desired number.
+
+6. As a User I can play a  thinking & memory games so that I can improve my memory.
+
+7. As a User I can browse a list of healthy foods so that I can prepare it.
+
+8. As a User I can regulate my sleep so that I can get  the healthy and ideal Sleep.
+
+9. As a User I can add Food & Diet System if I am  a Nutritionist so that I can help other Users.
+
+10. As a User I can browse list of Diet systems so that I can use on of them.
+
+11. Aa a User I can use a Dark Mode so that I can relieve the pressure on my eyes.
+
+12. As a User I can choose between English and Arabic Languages so that I can use My favorite languages.
+
 __________________________________________
 
 
