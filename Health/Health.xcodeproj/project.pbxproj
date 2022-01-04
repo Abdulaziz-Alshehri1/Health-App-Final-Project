@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8906C5752754AF070080E7BB /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8906C5732754AF070080E7BB /* BMIViewController.swift */; };
 		8906C5762754AF070080E7BB /* BMi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8906C5742754AF070080E7BB /* BMi.swift */; };
 		8906C5932754B7640080E7BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8906C5922754B7640080E7BB /* GoogleService-Info.plist */; };
 		892FF0C4276782420092DED1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 892FF0C6276782420092DED1 /* Localizable.strings */; };
@@ -69,13 +68,13 @@
 		89E7CB8E2762734A00E2B5B2 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E7CB8B2762734A00E2B5B2 /* Memory.swift */; };
 		89E7CB8F2762734A00E2B5B2 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E7CB8C2762734A00E2B5B2 /* MemoryViewController.swift */; };
 		89EA26E92760E7010064E8C4 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EA26E82760E7010064E8C4 /* Animations.swift */; };
+		89EE24A727846B4000DB8083 /* IdealWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EE24A627846B4000DB8083 /* IdealWeight.swift */; };
 		89F3184A27830FEB00CBBCFC /* Games.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3184927830FEB00CBBCFC /* Games.swift */; };
 		F92B0D28B876203A11AC73D9 /* Pods_Health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0ED2738D5330EABDE456134 /* Pods_Health.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		404003A4E47F8CE1D52CAA66 /* Pods-Health.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health.release.xcconfig"; path = "Target Support Files/Pods-Health/Pods-Health.release.xcconfig"; sourceTree = "<group>"; };
-		8906C5732754AF070080E7BB /* BMIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
 		8906C5742754AF070080E7BB /* BMi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMi.swift; sourceTree = "<group>"; };
 		8906C5922754B7640080E7BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Health/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		892FF0BF27675E6F0092DED1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -144,6 +143,7 @@
 		89E7CB8B2762734A00E2B5B2 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
 		89E7CB8C2762734A00E2B5B2 /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		89EA26E82760E7010064E8C4 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		89EE24A627846B4000DB8083 /* IdealWeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdealWeight.swift; sourceTree = "<group>"; };
 		89F3184927830FEB00CBBCFC /* Games.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Games.swift; sourceTree = "<group>"; };
 		A1EA9C872464E1489946A674 /* Pods-Health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health.debug.xcconfig"; path = "Target Support Files/Pods-Health/Pods-Health.debug.xcconfig"; sourceTree = "<group>"; };
 		E0ED2738D5330EABDE456134 /* Pods_Health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,14 +180,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8906C5722754AEF10080E7BB /* BMI Group */ = {
+		8906C5722754AEF10080E7BB /* Body Scale Group */ = {
 			isa = PBXGroup;
 			children = (
 				8949E8202778870300F550F3 /* BMIVC.swift */,
+				89EE24A627846B4000DB8083 /* IdealWeight.swift */,
 				8906C5742754AF070080E7BB /* BMi.swift */,
-				8906C5732754AF070080E7BB /* BMIViewController.swift */,
 			);
-			path = "BMI Group";
+			path = "Body Scale Group";
 			sourceTree = "<group>";
 		};
 		892FF0BB276736E10092DED1 /* TabBar */ = {
@@ -345,7 +345,7 @@
 				89BD8A3B2757AC7D00D028AB /* Goals */,
 				89C3DF6E2754C20C0060F20B /* Activites Group */,
 				89C3DF652754C1770060F20B /* Food Group */,
-				8906C5722754AEF10080E7BB /* BMI Group */,
+				8906C5722754AEF10080E7BB /* Body Scale Group */,
 				894F3686275611BA00198438 /* Sleep Arrangement */,
 				893F1BDF275F587700AE4997 /* Maps */,
 				897FCC2D275E190D00FB4C4B /* Steps Group */,
@@ -544,7 +544,6 @@
 				89DDC87E274D02BC003A1F79 /* Sign&Login.swift in Sources */,
 				89C8A6012766309600678199 /* Nutrition Specialist.swift in Sources */,
 				89C3DF7C2754C2570060F20B /* cell.swift in Sources */,
-				8906C5752754AF070080E7BB /* BMIViewController.swift in Sources */,
 				89BDBF5B274FC7B600453BC9 /* HomeScreen.swift in Sources */,
 				8971078F27668E9700837B38 /* specialist.swift in Sources */,
 				89F3184A27830FEB00CBBCFC /* Games.swift in Sources */,
@@ -557,6 +556,7 @@
 				89C3DF7D2754C2570060F20B /* VideoViewController.swift in Sources */,
 				894F36882756124A00198438 /* SleepVC.swift in Sources */,
 				897FCC2F275E194800FB4C4B /* Steps.swift in Sources */,
+				89EE24A727846B4000DB8083 /* IdealWeight.swift in Sources */,
 				89C8A5FE2766309600678199 /* Diet.swift in Sources */,
 				89EA26E92760E7010064E8C4 /* Animations.swift in Sources */,
 				89E7CB8E2762734A00E2B5B2 /* Memory.swift in Sources */,
