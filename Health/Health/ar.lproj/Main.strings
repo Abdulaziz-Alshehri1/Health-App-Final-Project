@@ -212,6 +212,28 @@
 /* Class = "UILabel"; text = "-"; ObjectID = "z36-Xs-2CU"; */
 "z36-Xs-2CU.text" = "-";
 
+
 "LyV-ed-Kon.placeholder" = "الطول";
 
 "uAk-VK-y2F.placeholder" = "الوزن";
+
+
+
+
+"mbR-s9-nH2.text" = "تفكير";
+
+"hnC-C0-O0U.text" = "ذاكرة";
+
+"mW9-sJ-eOf.configuration.title" = "كتلة الجسم";
+
+"giG-27-5TO.configuration.title" = "الوزن المثالي";
+
+"v37-mL-QSx.placeholder" = "الطول";
+
+"EFN-81-b0v.placeholder" = "العمر";
+
+"Tf5-zd-dkl.text" = "الوزن المثالي";
+
+
+
+"SBo-za-8rz.text" = "كتلة الجسم";
