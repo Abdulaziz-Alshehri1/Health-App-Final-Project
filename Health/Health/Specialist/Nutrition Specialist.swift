@@ -13,6 +13,7 @@ import FirebaseStorage
 
 class DietManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDelegate, UINavigationControllerDelegate{
     
+    @IBOutlet weak var dietImage: UIImageView!
     @IBOutlet weak var addToDietMenu: UIButton!
     
 
@@ -35,12 +36,20 @@ class DietManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFie
         picker.delegate = self
         present(picker, animated: true)
     }
+    
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         let image = (info[.editedImage] ?? info[.editedImage]) as? UIImage
+        
+        if let editedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage{
+            self.dietImage.image = editedImage
+        }
         
         cPic = image
         dismiss(animated: true)
     }
+    
+    
     @IBOutlet weak var newProductName: UITextField!
     
 //    @IBOutlet weak var newProductPrice: UITextField!

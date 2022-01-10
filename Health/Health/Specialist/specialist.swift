@@ -28,6 +28,8 @@ class Specialist: UIViewController{
         
         Passs.isSecureTextEntry = true
     }
+    
+    
     @IBAction func loggin(_ sender: Any) {
         if Emaill.text != nil && Passs.text != nil {
             Auth.auth().signIn(withEmail: Emaill.text!, password: Passs.text!) { (result, error) in

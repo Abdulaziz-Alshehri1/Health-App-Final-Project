@@ -16,6 +16,7 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
     var userId: String?
     var cPic: UIImage!
     
+    @IBOutlet weak var foodImage: UIImageView!
     @IBOutlet weak var addToFoodMenu: UIButton!
     
   
@@ -38,14 +39,25 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
          let image = (info[.editedImage] ?? info[.editedImage]) as? UIImage
         
+        
+        
+        if let editedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage{
+            self.foodImage.image = editedImage
+        }
+        
+
+        
         cPic = image
         dismiss(animated: true)
         
+
     }
+    
+
     
     @IBOutlet weak var newProductName: UITextField!
     
-//    @IBOutlet weak var newProductPrice: UITextField!
+
     @IBOutlet weak var newProductSummary: UITextField!
     
     @IBAction func AddnewProduct(_ sender: Any) {
@@ -65,7 +77,7 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
         textField.resignFirstResponder()
         return true
     }
-    
-    
-    
+
 }
+
+
