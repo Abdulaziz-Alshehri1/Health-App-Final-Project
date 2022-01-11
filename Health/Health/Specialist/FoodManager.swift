@@ -18,6 +18,7 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
     
     @IBOutlet weak var foodImage: UIImageView!
     @IBOutlet weak var addToFoodMenu: UIButton!
+    @IBOutlet weak var logOUT: UIButton!
     
   
     
@@ -51,6 +52,29 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
         dismiss(animated: true)
         
 
+    }
+    
+    
+    
+    @IBAction func logoutAction(_ sender: Any)  {
+        
+        
+        let alert = UIAlertController(title: "Do you want to LogOut",
+                       message: "",
+                       preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+            try! Auth.auth().signOut()
+            self.dismiss(animated: true, completion: nil)
+         let vc = Specialist()
+  
+         self.navigationController?.pushViewController(vc, animated: true)
+         print("“Yes start Chat”")}))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { action in
+         print("“Do not start Chat”")}))
+        self.present(alert, animated: true)
+        
+        
+        
     }
     
 

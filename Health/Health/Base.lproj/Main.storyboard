@@ -1273,6 +1273,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="rectangle.portrait.and.arrow.right" catalog="system"/>
                                 <connections>
+                                    <action selector="logoutAction:" destination="66v-1s-hSh" eventType="touchUpInside" id="w8J-BM-Y8V"/>
                                     <segue destination="a0g-Ol-6rM" kind="presentation" id="7do-0s-tee"/>
                                 </connections>
                             </button>
@@ -1281,6 +1282,7 @@
                     <connections>
                         <outlet property="addToFoodMenu" destination="oBI-Hp-EQW" id="FLM-PB-yEt"/>
                         <outlet property="foodImage" destination="hup-N0-Ndq" id="jGx-hq-PhV"/>
+                        <outlet property="logOUT" destination="uZf-Nc-Z9v" id="A9y-zg-AfJ"/>
                         <outlet property="newProductName" destination="rek-4u-72w" id="Mgf-ta-r8b"/>
                         <outlet property="newProductSummary" destination="5bf-2J-JmM" id="kU8-3a-qIT"/>
                     </connections>
@@ -2170,9 +2172,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="iNY-mm-dkc"/>
         <segue reference="Dld-gH-oCf"/>
         <segue reference="i31-1q-BZm"/>
-        <segue reference="tcW-XI-VfV"/>
+        <segue reference="dh9-5O-bdx"/>
         <segue reference="n20-U9-tWO"/>
         <segue reference="2Fj-wO-Csb"/>
     </inferredMetricsTieBreakers>
