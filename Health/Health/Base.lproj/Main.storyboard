@@ -529,6 +529,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="logOUt" destination="HsK-XM-c9L" id="hQj-EU-UlB"/>
                         <outlet property="todoTV" destination="GfY-HN-mm2" id="QAD-8r-LnW"/>
                         <outlet property="welcomeLabel" destination="Deu-7e-Eag" id="wwC-81-1Sk"/>
                     </connections>
@@ -1738,7 +1739,7 @@
             <objects>
                 <viewController id="uNX-pR-OtT" customClass="DietManagerVC" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gr3-fa-5b9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TOI-cv-pbO">
@@ -2172,7 +2173,7 @@
         <segue reference="Dld-gH-oCf"/>
         <segue reference="i31-1q-BZm"/>
         <segue reference="tcW-XI-VfV"/>
-        <segue reference="C2I-Tm-c5R"/>
+        <segue reference="n20-U9-tWO"/>
         <segue reference="2Fj-wO-Csb"/>
     </inferredMetricsTieBreakers>
     <resources>

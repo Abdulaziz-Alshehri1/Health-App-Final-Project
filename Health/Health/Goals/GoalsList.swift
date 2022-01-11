@@ -19,6 +19,7 @@ struct ToDo{
 
 class TodoView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var logOUt: UIBarButtonItem!
     
     @IBOutlet weak var todoTV: UITableView!
     @IBOutlet weak var welcomeLabel: UILabel!
@@ -63,10 +64,32 @@ class TodoView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     
+    
     @IBAction func logout(_ sender: Any) {
+     
+//        let buttonSingIn = logOUt
+//        try! Auth.auth().signOut()
+//        self.dismiss(animated: true, completion: nil)
         
-        try! Auth.auth().signOut()
-        self.dismiss(animated: true, completion: nil)
+        let alert = UIAlertController(title: "Do you want to LogOut",
+                       message: "",
+                       preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+            try! Auth.auth().signOut()
+            self.dismiss(animated: true, completion: nil)
+         let vc = ViewController()
+
+         self.navigationController?.pushViewController(vc, animated: true)
+         print("Yes")}))
+        alert.addAction(UIAlertAction(title: "cancel", style: .cancel, handler: { action in
+         print("Do not")}))
+        self.present(alert, animated: true)
+
+//        buttonSingIn.addTarget(self, action: #selector(popupAlert2), for: .touchUpInside)
+//         return buttonSingIn
+        
+//        try! Auth.auth().signOut()
+//        self.dismiss(animated: true, completion: nil)
         
         
     }
