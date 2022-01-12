@@ -389,23 +389,24 @@
                                 </constraints>
                                 <color key="tintColor" red="0.49944971700000002" green="0.58943310270000004" blue="0.85098040100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.right.circle.fill" catalog="system" title="">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="51"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.right.circle" catalog="system" title="">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="56"/>
+                                    <color key="baseForegroundColor" red="0.17081887367915463" green="0.40933709872278784" blue="0.77477708366728315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="je2-QJ-wEE" kind="show" id="tyT-cF-O1c"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See Healthy Locations 📍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thw-5d-OyV">
-                                <rect key="frame" x="20" y="220" width="374" height="25"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See Healthy Locations 📍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thw-5d-OyV">
+                                <rect key="frame" x="64" y="220" width="287" height="25"/>
+                                <color key="backgroundColor" red="0.94714553140000002" green="1" blue="0.98935231420000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="374" id="fV6-e6-eh8"/>
+                                    <constraint firstAttribute="width" constant="287" id="fV6-e6-eh8"/>
                                     <constraint firstAttribute="height" constant="25" id="rNe-ha-8RN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" red="0.49803921579999999" green="0.58823531870000001" blue="0.85490196939999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" systemColor="systemTealColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Psd-IN-dhP"/>
@@ -414,14 +415,17 @@
                             <constraint firstItem="LJF-aQ-8bl" firstAttribute="centerY" secondItem="615-LB-tpW" secondAttribute="centerY" id="OiI-DO-B0G"/>
                             <constraint firstItem="LJF-aQ-8bl" firstAttribute="top" secondItem="thw-5d-OyV" secondAttribute="bottom" constant="165.5" id="Rfh-Vo-a8j"/>
                             <constraint firstItem="LJF-aQ-8bl" firstAttribute="centerX" secondItem="615-LB-tpW" secondAttribute="centerX" id="fMG-sU-6qS"/>
-                            <constraint firstItem="Psd-IN-dhP" firstAttribute="trailing" secondItem="thw-5d-OyV" secondAttribute="trailing" constant="20" id="hfo-ma-bcQ"/>
+                            <constraint firstItem="Psd-IN-dhP" firstAttribute="trailing" secondItem="thw-5d-OyV" secondAttribute="trailing" constant="63" id="hfo-ma-bcQ"/>
                             <constraint firstItem="thw-5d-OyV" firstAttribute="top" secondItem="Psd-IN-dhP" secondAttribute="top" constant="176" id="osf-W8-ZTm"/>
-                            <constraint firstItem="thw-5d-OyV" firstAttribute="leading" secondItem="Psd-IN-dhP" secondAttribute="leading" constant="20" id="qLi-HN-8bg"/>
+                            <constraint firstItem="thw-5d-OyV" firstAttribute="leading" secondItem="Psd-IN-dhP" secondAttribute="leading" constant="64" id="qLi-HN-8bg"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Maps" id="FhN-Xx-Q9Y">
                         <imageReference key="image" image="map" catalog="system"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="titlelbl" destination="thw-5d-OyV" id="OXs-yb-Acf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bcu-30-cBF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2175,11 +2179,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iNY-mm-dkc"/>
         <segue reference="Dld-gH-oCf"/>
         <segue reference="i31-1q-BZm"/>
         <segue reference="dh9-5O-bdx"/>
-        <segue reference="XaB-7p-sxR"/>
+        <segue reference="n20-U9-tWO"/>
         <segue reference="2Fj-wO-Csb"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -2196,7 +2199,7 @@
         <image name="Image-74" width="179" height="179"/>
         <image name="Image-76" width="170" height="170"/>
         <image name="Image-9" width="667" height="374"/>
-        <image name="arrowshape.turn.up.right.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="arrowshape.turn.up.right.circle" catalog="system" width="128" height="121"/>
         <image name="bed.double.fill" catalog="system" width="128" height="82"/>
         <image name="brain-run-logo-icon-design-vector-22520907" width="500" height="500"/>
         <image name="checkmark" width="40" height="40"/>

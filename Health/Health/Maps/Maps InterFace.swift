@@ -11,6 +11,9 @@ import UIKit
 
 class MapsInterface: UIViewController{
     
+    @IBOutlet weak var titlelbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -18,6 +21,10 @@ class MapsInterface: UIViewController{
             backgroundImage.image = UIImage(named: "Image-34")
             backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
             self.view.insertSubview(backgroundImage, at: 0)
+        
+        
+        titlelbl.layer.cornerRadius = 10
+        
     }
 
 }
