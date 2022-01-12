@@ -64,7 +64,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thinking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbR-s9-nH2">
                                         <rect key="frame" x="0.0" y="237" width="203" height="31"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
-                                        <color key="textColor" red="0.95831473801207345" green="0.97246124488542829" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
@@ -79,7 +79,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnC-C0-O0U">
                                         <rect key="frame" x="0.0" y="540" width="203" height="31"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
-                                        <color key="textColor" red="0.958314738" green="0.97246124489999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
@@ -87,7 +87,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CEd-WK-Apv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.94714553139115543" green="1" blue="0.9893523142354127" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="yJA-V2-SPb" firstAttribute="centerY" secondItem="3rq-Df-EeO" secondAttribute="centerY" id="otT-Rb-aYu"/>
                             <constraint firstItem="yJA-V2-SPb" firstAttribute="centerX" secondItem="3rq-Df-EeO" secondAttribute="centerX" id="yGO-Ng-ae5"/>
@@ -99,7 +99,10 @@
                                 <rect key="frame" x="20" y="11" width="92" height="34.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="homekit" catalog="system"/>
+                                <buttonConfiguration key="configuration" style="filled" image="homekit" catalog="system" title="">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.4941176176" green="0.65098041299999998" blue="0.74509805439999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="EiY-nT-3mW" kind="presentation" id="XaB-7p-sxR"/>
                                 </connections>
@@ -109,7 +112,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ga4-ms-u3D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4697" y="723"/>
+            <point key="canvasLocation" x="-4697.1014492753629" y="722.54464285714278"/>
         </scene>
         <!--Home-->
         <scene sceneID="GHc-py-2wh">
@@ -2176,7 +2179,7 @@
         <segue reference="Dld-gH-oCf"/>
         <segue reference="i31-1q-BZm"/>
         <segue reference="dh9-5O-bdx"/>
-        <segue reference="n20-U9-tWO"/>
+        <segue reference="XaB-7p-sxR"/>
         <segue reference="2Fj-wO-Csb"/>
     </inferredMetricsTieBreakers>
     <resources>

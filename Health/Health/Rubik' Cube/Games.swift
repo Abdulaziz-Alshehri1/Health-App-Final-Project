@@ -14,10 +14,10 @@ class Games: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-            backgroundImage.image = UIImage(named: "d444108960f1de96cc04d44e9aa53e54")
-            backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
-            self.view.insertSubview(backgroundImage, at: 0)
+//        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+//            backgroundImage.image = UIImage(named: "d444108960f1de96cc04d44e9aa53e54")
+//            backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+//            self.view.insertSubview(backgroundImage, at: 0)
         
         
     }
