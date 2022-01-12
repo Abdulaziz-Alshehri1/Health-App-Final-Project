@@ -59,17 +59,17 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
     @IBAction func logoutAction(_ sender: Any)  {
         
         
-        let alert = UIAlertController(title: "Do you want to LogOut",
+        let alert = UIAlertController(title:NSLocalizedString("l4", comment: ""),
                        message: "",
                        preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+        alert.addAction(UIAlertAction(title:NSLocalizedString("l5", comment: ""), style: .destructive, handler: { action in
             try! Auth.auth().signOut()
             self.dismiss(animated: true, completion: nil)
          let vc = Specialist()
   
          self.navigationController?.pushViewController(vc, animated: true)
          print("“Yes start Chat”")}))
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { action in
+        alert.addAction(UIAlertAction(title: NSLocalizedString("l6", comment: ""), style: .cancel, handler: { action in
          print("“Do not start Chat”")}))
         self.present(alert, animated: true)
         

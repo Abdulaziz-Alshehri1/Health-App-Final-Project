@@ -71,17 +71,17 @@ class TodoView: UIViewController, UITableViewDelegate, UITableViewDataSource {
 //        try! Auth.auth().signOut()
 //        self.dismiss(animated: true, completion: nil)
         
-        let alert = UIAlertController(title: "Do you want to LogOut",
+        let alert = UIAlertController(title: NSLocalizedString("l1", comment: ""),
                        message: "",
                        preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+        alert.addAction(UIAlertAction(title: NSLocalizedString("l2", comment: ""), style: .destructive, handler: { action in
             try! Auth.auth().signOut()
             self.dismiss(animated: true, completion: nil)
          let vc = ViewController()
 
          self.navigationController?.pushViewController(vc, animated: true)
          print("Yes")}))
-        alert.addAction(UIAlertAction(title: "cancel", style: .cancel, handler: { action in
+        alert.addAction(UIAlertAction(title:NSLocalizedString("l3", comment: ""), style: .cancel, handler: { action in
          print("Do not")}))
         self.present(alert, animated: true)
 
