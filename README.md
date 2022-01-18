@@ -3,7 +3,7 @@
 
 BluePrint 
 
-Project Name: Health App.
+#Project Name: Health App.
 
 Project Description:
 
@@ -14,7 +14,7 @@ The application supports English/Arabic
 
 __________________________________________
 
-Define structure:
+#Define structure:
 
 Models,
 Controllers/
@@ -31,7 +31,7 @@ Diet,
 Healthy locations
 __________________________________________
 
-User Stories:
+#User Stories:
 
 1. As a User I can sign and Login to the app so that I can save my Goals on Firebase.
 
@@ -60,6 +60,19 @@ User Stories:
 __________________________________________
 
 
-
-
+| User Path          | Component                                | User Behavior                                                                         |
+| ------------------ | ---------------------------------------- | ------------------------------------------------------------------------------------- |
+| /Launch Screen     | animation Page                           | after animation finished it will open Home page                                       |    
+| /home page         | Activities,Mental Activities,Food,Scale  | The user can access all the features available in                                     |
+| /Activities page   | WorkOuts Lists                           | The user can play all the recorded exercises                                          |
+| /Mental Activities | Thinking  and Memory Games               |   The user can play as many mind games as he wants                                    |
+| /Food page         | Healthy Dishes                           | Browse all Healthy Dishes                                                             |
+| /Diet page         | Diet List                                | Browse all Diet Systems and Plans                                                     |
+| /Scale page        | BMI And Ideal wieght                     | for app settings                                                                      |
+| /User login        | Email,password                           | Login, navigate to Goals Page after login                                             |
+| /User signup       | Signup Page                              | Signup, navigate to Goals Page after signup                                           |
+| /Goals page        | Goals List                               | write new goals and save them on Database                                             |       
+| /Sleep Page        |  Hour calculator                         |    user can know his ideal sleep times                                                |
+| /Steps Page        |  Steps Counter                           |   user can know his steps number                                                      |
+| /Locations Page    |   maps                                   |  user can see  healthy location                                                       |
 
