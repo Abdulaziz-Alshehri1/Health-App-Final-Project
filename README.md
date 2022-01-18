@@ -3,7 +3,7 @@
 
 BluePrint 
 
-#Project Name: Health App.
+# Project Name: Health App.
 
 Project Description:
 
@@ -14,7 +14,7 @@ The application supports English/Arabic
 
 __________________________________________
 
-#Define structure:
+# Define structure:
 
 Models,
 Controllers/
@@ -22,8 +22,8 @@ Sign & Login,
 Health goals,
 Activities,
 Steps Count,
-BMI calculator,
-Mental game.
+Scale,
+Mental games.
 Nutritionist,
 Sleep,
 Food,
@@ -31,7 +31,7 @@ Diet,
 Healthy locations
 __________________________________________
 
-#User Stories:
+# User Stories:
 
 1. As a User I can sign and Login to the app so that I can save my Goals on Firebase.
 
@@ -59,20 +59,92 @@ __________________________________________
 
 __________________________________________
 
+# Nutritionist Stories 
 
-| User Path          | Component                                | User Behavior                                                                         |
+As a Nutritionist I can add new healthy Dishes to Dishes List So that  user benefits from it
+As a Nutritionist I can add new Diet Systems and Plans to Diet list So that user benefits from it
+
+------------------------------------------
+
+
+# Client / Frontend
+
+
+| User Path          | Components                               | User Behavior                                                                         |
 | ------------------ | ---------------------------------------- | ------------------------------------------------------------------------------------- |
-| /Launch Screen     | animation Page                           | after animation finished it will open Home page                                       |    
-| /home page         | Activities,Mental Activities,Food,Scale  | The user can access all the features available in                                     |
-| /Activities page   | WorkOuts Lists                           | The user can play all the recorded exercises                                          |
-| /Mental Activities | Thinking  and Memory Games               |   The user can play as many mind games as he wants                                    |
-| /Food page         | Healthy Dishes                           | Browse all Healthy Dishes                                                             |
-| /Diet page         | Diet List                                | Browse all Diet Systems and Plans                                                     |
-| /Scale page        | BMI And Ideal wieght                     | for app settings                                                                      |
-| /User login        | Email,password                           | Login, navigate to Goals Page after login                                             |
-| /User signup       | Signup Page                              | Signup, navigate to Goals Page after signup                                           |
-| /Goals page        | Goals List                               | write new goals and save them on Database                                             |       
-| /Sleep Page        |  Hour calculator                         |    user can know his ideal sleep times                                                |
-| /Steps Page        |  Steps Counter                           |   user can know his steps number                                                      |
-| /Locations Page    |   maps                                   |  user can see  healthy location                                                       |
+| Launch Screen      | animation Page                           | after animation finished it will open Home page                                       |    
+| home page          | Activities,Mental Activities,Food,Scale  | The user can access all the features available in                                     |
+| Activities page    | WorkOuts Lists                           | The user can play all the recorded exercises                                          |
+| Mental Activities  | Thinking  and Memory Games               |   The user can play as many mind games as he wants                                    |
+| Food page          | Healthy Dishes                           | Browse all Healthy Dishes                                                             |
+| Diet page          | Diet List                                | Browse all Diet Systems and Plans                                                     |
+| Scale page         | BMI And Ideal wieght                     | for app settings                                                                      |
+| User login         | Email,password                           | Login, navigate to Goals Page after login                                             |
+| User signup        | Signup Page                              | Signup, navigate to Goals Page after signup                                           |
+| Goals page         | Goals List                               | write new goals and save them on Database                                             |       
+| Sleep Page         | Hour calculator                          |    user can know his ideal sleep times                                                |
+| Steps Page         | Steps Counter                            |   user can know his steps number                                                      |
+| Locations Page     | maps                                     |  user can see  healthy location                                                       |
 
+
+| Nutritionist Path          | Components                               | Nutritionist Behavior                                                                 |
+| ------------------         | --------------------------------         | ------------------------------------------------------------------------------------- |
+| Nutritionist signup        | Email,password                           | after signup you can add to Dishes List and Diet Lists                                |
+| Nutritionist login         | Email,password                           | after login you can add to Dishes List and Diet Systems                               |
+
+
+
+## Services
+
+- Auth Service
+  - auth.login(user)
+  - auth.signup(user)
+  - auth.logout()
+  - auth.me()
+  - auth.getUser() // synchronous
+- Exit Point Service
+  - exitPoint.list()
+  - exitPoint.detail(id)
+  - exitPoint.add(id)
+  - exitPoint.delete(id)
+- User Service
+  - user.detail(id)
+
+
+
+# Server / Backend
+
+## Models
+
+User model
+
+```
+{
+  user: {type: String, required: true, unique: true},
+  email: {type: String, required: true, unique: true},
+  password: {type: String, required: true},
+  favorites: [{type: Schema.Types.ObjectId,ref:'Exit'}]
+  userAgreement: {type: boolean, required: true, default: false}
+}
+```
+
+Exit model
+
+```
+ {
+   name: {type: String, required: true},
+   img: {type: String},
+   aproachLat: {type: Number, required: true}
+   aproachLong: {type: Number, required: true}
+   aproachDescription: {type: String}
+   exitLat: {type: Number, required: true}
+   exitLong: {type: Number, required: true}
+   exitDescription: {type: String}
+   landiZoneLat: {type: Number, required: true}
+   landingZoneLong: {type: Number, required: true}
+   landingZoneDescription: {type: String}
+   creator: {type: Schema.Types.ObjectId,ref:'User'}
+   altitud: {type: number}
+   
+ }
+```
