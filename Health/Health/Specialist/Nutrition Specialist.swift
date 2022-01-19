@@ -15,6 +15,7 @@ class DietManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFie
     
     @IBOutlet weak var dietImage: UIImageView!
     @IBOutlet weak var addToDietMenu: UIButton!
+    @IBOutlet weak var photoPrevieww: UIImageView!
     
 
     var cPic: UIImage!
@@ -23,7 +24,7 @@ class DietManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFie
         super.viewDidLoad()
         
         addToDietMenu.layer.cornerRadius = 15
-        
+        photoPrevieww.layer.cornerRadius = 15
      
 
     }

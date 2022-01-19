@@ -1,7 +1,7 @@
 # Final Project.
 
 
-BluePrint 
+ 
 
 # Project Name: Health App.
 
@@ -12,23 +12,6 @@ A healthy application that provides the user with many features in all physical 
 The application supports Dark mode
 The application supports English/Arabic 
 
-__________________________________________
-
-# Define structure:
-
-Models,
-Controllers/
-Sign & Login,
-Health goals,
-Activities,
-Steps Count,
-Scale,
-Mental games.
-Nutritionist,
-Sleep,
-Food,
-Diet,
-Healthy locations
 __________________________________________
 
 # User Stories:
@@ -57,12 +40,7 @@ __________________________________________
 
 12. As a User I can choose between English and Arabic Languages so that I can use My favorite languages.
 
-__________________________________________
 
-# Nutritionist Stories 
-
-As a Nutritionist I can add new healthy Dishes to Dishes List So that  user benefits from it
-As a Nutritionist I can add new Diet Systems and Plans to Diet list So that user benefits from it
 
 ------------------------------------------
 
@@ -73,7 +51,7 @@ As a Nutritionist I can add new Diet Systems and Plans to Diet list So that user
 | User Path          | Components                               | User Behavior                                                                         |
 | ------------------ | ---------------------------------------- | ------------------------------------------------------------------------------------- |
 | Launch Screen      | animation Page                           | after animation finished it will open Home page                                       |    
-| home page          | Activities,Mental Activities,Food,Scale  | The user can access all the features available in                                     |
+| Home page          | Activities,Mental Activities,Food,Scale  | The user can access all the features available in                                     |
 | Activities page    | WorkOuts Lists                           | The user can play all the recorded exercises                                          |
 | Mental Activities  | Thinking  and Memory Games               |   The user can play as many mind games as he wants                                    |
 | Food page          | Healthy Dishes                           | Browse all Healthy Dishes                                                             |
@@ -93,7 +71,25 @@ As a Nutritionist I can add new Diet Systems and Plans to Diet list So that user
 | Nutritionist login         | Email,password                           | after login you can add to Dishes List and Diet Systems                               |
 
 
+-------------------------------------------
 
+#Components
+
+- Home page
+- Activities page
+- Mental Activities
+- Food page
+- Diet page 
+- Scale page
+- User login
+- Goals page
+- Sleep Page
+- Steps Page
+- Locations Page 
+- Nutritionist Page
+- Add to lists page
+
+-------------------------------------------
 ## Services
 
 - Auth Service
@@ -148,3 +144,5 @@ Exit model
    
  }
 ```
+
+

@@ -1166,7 +1166,7 @@
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" id="66v-1s-hSh" customClass="ManagerVC" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SJL-uV-C53">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rek-4u-72w">
@@ -1197,8 +1197,9 @@
                                     <action selector="AddnewProduct:" destination="66v-1s-hSh" eventType="touchUpInside" id="muh-RS-rgb"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hup-N0-Ndq">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hup-N0-Ndq">
                                 <rect key="frame" x="120" y="56" width="175" height="103"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="175" id="XFa-Xx-dV5"/>
                                     <constraint firstAttribute="height" constant="103" id="g30-4g-v44"/>
@@ -1292,6 +1293,7 @@
                         <outlet property="logOUT" destination="uZf-Nc-Z9v" id="A9y-zg-AfJ"/>
                         <outlet property="newProductName" destination="rek-4u-72w" id="Mgf-ta-r8b"/>
                         <outlet property="newProductSummary" destination="5bf-2J-JmM" id="kU8-3a-qIT"/>
+                        <outlet property="photoPreview" destination="hup-N0-Ndq" id="Lpp-vF-nDG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qsi-6h-NLC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1752,7 +1754,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TOI-cv-pbO">
-                                <rect key="frame" x="79" y="298" width="259" height="34"/>
+                                <rect key="frame" x="79" y="354" width="259" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="dY0-P0-wQ9"/>
                                 </constraints>
@@ -1760,7 +1762,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b6O-1H-xXC">
-                                <rect key="frame" x="78" y="367" width="259" height="34"/>
+                                <rect key="frame" x="78" y="423" width="259" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="8Tf-B0-rTp"/>
                                 </constraints>
@@ -1768,7 +1770,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDq-Nt-yfF">
-                                <rect key="frame" x="79" y="521" width="259" height="61"/>
+                                <rect key="frame" x="79" y="577" width="259" height="61"/>
                                 <color key="backgroundColor" red="0.88676053401720456" green="0.93065938012783511" blue="0.60939308901924338" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="GRF-l7-73O"/>
@@ -1780,7 +1782,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Link" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c5h-gc-OCh">
-                                <rect key="frame" x="78" y="435" width="259" height="34"/>
+                                <rect key="frame" x="78" y="491" width="259" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="UMs-ne-Tf0"/>
                                 </constraints>
@@ -1788,10 +1790,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G4i-fF-1GG">
-                                <rect key="frame" x="117" y="10" width="180" height="93"/>
+                                <rect key="frame" x="117" y="66" width="180" height="93"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9M0-er-28G">
-                                <rect key="frame" x="148" y="169" width="119" height="91"/>
+                                <rect key="frame" x="148" y="225" width="119" height="91"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="91" id="33f-7P-ytB"/>
                                 </constraints>
@@ -1805,7 +1808,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H07-hu-WcS">
-                                <rect key="frame" x="115" y="721" width="185" height="56"/>
+                                <rect key="frame" x="115" y="755" width="185" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="kZc-x0-xQQ"/>
                                 </constraints>
@@ -1852,6 +1855,7 @@
                         <outlet property="linkk" destination="c5h-gc-OCh" id="r11-oP-duq"/>
                         <outlet property="newProductName" destination="TOI-cv-pbO" id="XLy-Od-I1U"/>
                         <outlet property="newProductSummary" destination="b6O-1H-xXC" id="hxI-Dj-9fY"/>
+                        <outlet property="photoPrevieww" destination="G4i-fF-1GG" id="t5F-et-6ab"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iDh-Sg-pHN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2181,7 +2185,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="Dld-gH-oCf"/>
         <segue reference="i31-1q-BZm"/>
-        <segue reference="dh9-5O-bdx"/>
+        <segue reference="tcW-XI-VfV"/>
         <segue reference="XaB-7p-sxR"/>
         <segue reference="2Fj-wO-Csb"/>
     </inferredMetricsTieBreakers>

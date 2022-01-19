@@ -67,9 +67,7 @@ class TodoView: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBAction func logout(_ sender: Any) {
      
-//        let buttonSingIn = logOUt
-//        try! Auth.auth().signOut()
-//        self.dismiss(animated: true, completion: nil)
+
         
         let alert = UIAlertController(title: NSLocalizedString("l1", comment: ""),
                        message: "",
@@ -85,13 +83,6 @@ class TodoView: UIViewController, UITableViewDelegate, UITableViewDataSource {
          print("Do not")}))
         self.present(alert, animated: true)
 
-//        buttonSingIn.addTarget(self, action: #selector(popupAlert2), for: .touchUpInside)
-//         return buttonSingIn
-        
-//        try! Auth.auth().signOut()
-//        self.dismiss(animated: true, completion: nil)
-        
-        
     }
     
     @IBAction func addTodo(_ sender: Any) {
@@ -189,24 +180,6 @@ Database.database().reference(withPath:"users").child(userId!).child("todos").ch
         }
     }
     
-//    @objc func haB() {
-//
-//        let alert1 = UIAlertController(
-//            title: ("Saved"),
-//            message: "Saved update data",
-//            preferredStyle: .alert)
-//        alert1.addAction(
-//            UIAlertAction(
-//                title: "OK",
-//                style: .default,
-//                handler: { action in
-//                    print("OK")
-//                    self.performSegue(withIdentifier: "12345", sender: nil)
-//                }
-//            )
-//        )
-//        present(alert1, animated: true, completion: nil)
-//    }
 }
 
 

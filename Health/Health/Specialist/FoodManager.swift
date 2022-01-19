@@ -19,6 +19,7 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
     @IBOutlet weak var foodImage: UIImageView!
     @IBOutlet weak var addToFoodMenu: UIButton!
     @IBOutlet weak var logOUT: UIButton!
+    @IBOutlet weak var photoPreview: UIImageView!
     
   
     
@@ -26,7 +27,7 @@ class ManagerVC : UIViewController,UIImagePickerControllerDelegate,UITextFieldDe
         super.viewDidLoad()
         
         addToFoodMenu.layer.cornerRadius = 15
-       
+        photoPreview.layer.cornerRadius = 15
     }
     
     
