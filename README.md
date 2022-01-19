@@ -1,16 +1,14 @@
 # Final Project.
 
 
- 
-
 # Project Name: Health App.
 
 Project Description:
 
-A healthy application that provides the user with many features in all physical and mental sides , such as exercises, the number of daily steps, body mass calculation, and in side of nutrition, it provides a list of healthy foods and a list of Diets.  The application offers a feature that enables users to know the perfect bedtimes for them in order to get the ideal sleep.  The application is also concerned with the mental aspect, as it offers activities that help the user to improve his brain and memory. The user can write all his health goals and save them on the database.
+A healthy application that provides the user with many features in all physical and mental sides , such as exercises, the number of daily steps, body mass calculation and Ideal Weight.  In side of Nutrition, it provides a list of healthy foods and a list of Diets Systems.There is also a page for a Nutritionist that enables him to add to these lists.  The application offers a feature that enables users to know the perfect bedtimes for them in order to get the ideal sleep.  The application is also concerned with the mental aspect, as it offers activities that help the user to improve his brain and memory. The user can write all his health goals and save them on the database.
 
-The application supports Dark mode
-The application supports English/Arabic 
+The application supports Light / Dark mode
+The application supports English / Arabic 
 
 __________________________________________
 
@@ -73,7 +71,7 @@ __________________________________________
 
 -------------------------------------------
 
-#Components
+# Components
 
 - Home page
 - Activities page
@@ -144,5 +142,9 @@ Exit model
    
  }
 ```
+### Slides
 
+The url to your presentation slides
+
+[Slides Link](https://docs.google.com/presentation/d/1qccSTVk1yrIQKC3x9inwS0V-bisv_rEhlyh1criKGSA/edit?usp=sharing)
 
