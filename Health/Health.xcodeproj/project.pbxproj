@@ -224,6 +224,116 @@
 			path = "Sleep Arrangement";
 			sourceTree = "<group>";
 		};
+		8970C43727998264004426C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8970C43B279985A2004426C6 /* Activites Model */,
+				8970C43A2799857C004426C6 /* FoodModel */,
+				8970C440279987D0004426C6 /* DietModel */,
+				8970C43E27998758004426C6 /* CardsModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8970C4382799826F004426C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89DDC884274D02BE003A1F79 /* LaunchScreen.storyboard */,
+				89DDC87F274D02BC003A1F79 /* Main.storyboard */,
+				89EA26E72760E6E50064E8C4 /* Animation */,
+				8970C44127998829004426C6 /* DietCell */,
+				8970C43D279986FD004426C6 /* ActiviteCell */,
+				8970C43C279986A3004426C6 /* GoalsCell */,
+				8970C43F2799879D004426C6 /* FoodsCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8970C43927998280004426C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89F9EE432761E6B900E3AFB6 /* Home */,
+				89C3DF6E2754C20C0060F20B /* Activites Group */,
+				89C3DF652754C1770060F20B /* Food Group */,
+				89C8A5F727662FE200678199 /* Diet Group */,
+				8971079227669BF300837B38 /* Specialist */,
+				8906C5722754AEF10080E7BB /* Body Scale Group */,
+				894F3686275611BA00198438 /* Sleep Arrangement */,
+				89BD8A3B2757AC7D00D028AB /* Goals */,
+				89F9EE442761E6D900E3AFB6 /* Sign & Login */,
+				89E7CB892762732A00E2B5B2 /* MemoryGame */,
+				89350E242781C61C00A79733 /* Rubik' Cube */,
+				897FCC2D275E190D00FB4C4B /* Steps Group */,
+				893F1BDF275F587700AE4997 /* Maps */,
+				892FF0BB276736E10092DED1 /* TabBar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8970C43A2799857C004426C6 /* FoodModel */ = {
+			isa = PBXGroup;
+			children = (
+				89C3DF692754C1A00060F20B /* model.swift */,
+			);
+			path = FoodModel;
+			sourceTree = "<group>";
+		};
+		8970C43B279985A2004426C6 /* Activites Model */ = {
+			isa = PBXGroup;
+			children = (
+				89C3DF7B2754C2570060F20B /* Model.swift */,
+			);
+			path = "Activites Model";
+			sourceTree = "<group>";
+		};
+		8970C43C279986A3004426C6 /* GoalsCell */ = {
+			isa = PBXGroup;
+			children = (
+				895B34FD274E256500AAD39A /* GoalsCell.swift */,
+			);
+			path = GoalsCell;
+			sourceTree = "<group>";
+		};
+		8970C43D279986FD004426C6 /* ActiviteCell */ = {
+			isa = PBXGroup;
+			children = (
+				89C3DF792754C2570060F20B /* cell.swift */,
+			);
+			path = ActiviteCell;
+			sourceTree = "<group>";
+		};
+		8970C43E27998758004426C6 /* CardsModel */ = {
+			isa = PBXGroup;
+			children = (
+				89E7CB8A2762734A00E2B5B2 /* Card.swift */,
+			);
+			path = CardsModel;
+			sourceTree = "<group>";
+		};
+		8970C43F2799879D004426C6 /* FoodsCell */ = {
+			isa = PBXGroup;
+			children = (
+				89C3DF662754C1A00060F20B /* foodCell.swift */,
+			);
+			path = FoodsCell;
+			sourceTree = "<group>";
+		};
+		8970C440279987D0004426C6 /* DietModel */ = {
+			isa = PBXGroup;
+			children = (
+				89C8A5FB2766309600678199 /* ModelDiet.swift */,
+			);
+			path = DietModel;
+			sourceTree = "<group>";
+		};
+		8970C44127998829004426C6 /* DietCell */ = {
+			isa = PBXGroup;
+			children = (
+				89C8A5FA2766309500678199 /* DietCell.swift */,
+			);
+			path = DietCell;
+			sourceTree = "<group>";
+		};
 		8971079227669BF300837B38 /* Specialist */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,7 +358,6 @@
 			isa = PBXGroup;
 			children = (
 				8958B966274D91200090D027 /* GoalsList.swift */,
-				895B34FD274E256500AAD39A /* GoalsCell.swift */,
 			);
 			path = Goals;
 			sourceTree = "<group>";
@@ -256,9 +365,7 @@
 		89C3DF652754C1770060F20B /* Food Group */ = {
 			isa = PBXGroup;
 			children = (
-				89C3DF692754C1A00060F20B /* model.swift */,
 				89C3DF682754C1A00060F20B /* Food.swift */,
-				89C3DF662754C1A00060F20B /* foodCell.swift */,
 				89C3DF672754C1A00060F20B /* FoodInterface.swift */,
 			);
 			path = "Food Group";
@@ -267,8 +374,6 @@
 		89C3DF6E2754C20C0060F20B /* Activites Group */ = {
 			isa = PBXGroup;
 			children = (
-				89C3DF7B2754C2570060F20B /* Model.swift */,
-				89C3DF792754C2570060F20B /* cell.swift */,
 				89C3DF7A2754C2570060F20B /* VideoViewController.swift */,
 				89C8A5CA2765CC3D00678199 /* videos Group */,
 			);
@@ -306,9 +411,7 @@
 		89C8A5F727662FE200678199 /* Diet Group */ = {
 			isa = PBXGroup;
 			children = (
-				89C8A5FB2766309600678199 /* ModelDiet.swift */,
 				89C8A5F92766309500678199 /* Diet.swift */,
-				89C8A5FA2766309500678199 /* DietCell.swift */,
 				89C8A5F82766309500678199 /* DietInterface.swift */,
 			);
 			path = "Diet Group";
@@ -335,29 +438,15 @@
 		89DDC878274D02BC003A1F79 /* Health */ = {
 			isa = PBXGroup;
 			children = (
+				8970C43727998264004426C6 /* Model */,
+				8970C4382799826F004426C6 /* View */,
+				8970C43927998280004426C6 /* Controller */,
 				897FCC2A275E18D000FB4C4B /* Health.entitlements */,
 				8906C5922754B7640080E7BB /* GoogleService-Info.plist */,
 				89DDC879274D02BC003A1F79 /* AppDelegate.swift */,
 				89DDC87B274D02BC003A1F79 /* SceneDelegate.swift */,
-				892FF0BB276736E10092DED1 /* TabBar */,
-				89F9EE442761E6D900E3AFB6 /* Sign & Login */,
-				89F9EE432761E6B900E3AFB6 /* Home */,
-				89BD8A3B2757AC7D00D028AB /* Goals */,
-				89C3DF6E2754C20C0060F20B /* Activites Group */,
-				89C3DF652754C1770060F20B /* Food Group */,
-				8906C5722754AEF10080E7BB /* Body Scale Group */,
-				894F3686275611BA00198438 /* Sleep Arrangement */,
-				893F1BDF275F587700AE4997 /* Maps */,
-				897FCC2D275E190D00FB4C4B /* Steps Group */,
-				89EA26E72760E6E50064E8C4 /* Animation */,
-				89E7CB892762732A00E2B5B2 /* MemoryGame */,
-				89350E242781C61C00A79733 /* Rubik' Cube */,
-				89C8A5F727662FE200678199 /* Diet Group */,
-				8971079227669BF300837B38 /* Specialist */,
-				89DDC87F274D02BC003A1F79 /* Main.storyboard */,
 				892FF0C6276782420092DED1 /* Localizable.strings */,
 				89DDC882274D02BE003A1F79 /* Assets.xcassets */,
-				89DDC884274D02BE003A1F79 /* LaunchScreen.storyboard */,
 				89DDC887274D02BE003A1F79 /* Info.plist */,
 			);
 			path = Health;
@@ -366,7 +455,6 @@
 		89E7CB892762732A00E2B5B2 /* MemoryGame */ = {
 			isa = PBXGroup;
 			children = (
-				89E7CB8A2762734A00E2B5B2 /* Card.swift */,
 				89E7CB8B2762734A00E2B5B2 /* Memory.swift */,
 				89E7CB8C2762734A00E2B5B2 /* MemoryViewController.swift */,
 			);
