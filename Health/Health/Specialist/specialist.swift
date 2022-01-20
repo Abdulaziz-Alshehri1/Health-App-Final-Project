@@ -19,6 +19,7 @@ class Specialist: UIViewController{
     
     @IBOutlet weak var loginButton: UIButton!
     
+    @IBOutlet weak var signBtn: UIButton!
     var uid:String = ""
     
     override func viewDidLoad() {
@@ -29,6 +30,10 @@ class Specialist: UIViewController{
         Passs.isSecureTextEntry = true
     }
     
+    @IBAction func signbutton(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwwKTYjMD1AhWKAGMBHX0rAEYQFnoECA0QAQ&url=https%3A%2F%2Fwww.google.com%2Fgmail%2F&usg=AOvVaw3mZ_qbD_gQyp_sqkjrwStn")! as URL, options: [:], completionHandler: nil)
+    }
     
     @IBAction func loggin(_ sender: Any) {
         if Emaill.text != nil && Passs.text != nil {
