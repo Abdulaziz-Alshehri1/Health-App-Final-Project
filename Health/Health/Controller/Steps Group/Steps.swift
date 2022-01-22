@@ -20,7 +20,7 @@ class StepsViewController: UIViewController {
         self.stepsLabel.layer.cornerRadius = 15
         
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-            backgroundImage.image = UIImage(named: "Image-33")
+            backgroundImage.image = UIImage(named: "JkQRdK")
             backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
             self.view.insertSubview(backgroundImage, at: 0)
         // Do any additional setup after loading the view.

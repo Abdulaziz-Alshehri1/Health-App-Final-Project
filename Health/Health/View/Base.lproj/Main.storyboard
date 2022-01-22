@@ -391,7 +391,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.right.circle" catalog="system" title="">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="56"/>
-                                    <color key="baseForegroundColor" red="0.17081887367915463" green="0.40933709872278784" blue="0.77477708366728315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="je2-QJ-wEE" kind="show" id="tyT-cF-O1c"/>
@@ -1128,9 +1128,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnJ-A8-VaI">
-                                <rect key="frame" x="126" y="429" width="162" height="38"/>
+                                <rect key="frame" x="39" y="128" width="337" height="50"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="systemOrangeColor"/>
@@ -1141,7 +1141,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="hnJ-A8-VaI" firstAttribute="centerX" secondItem="Xzu-MV-Ncs" secondAttribute="centerX" id="NtM-v7-O3J"/>
-                            <constraint firstItem="hnJ-A8-VaI" firstAttribute="centerY" secondItem="Xzu-MV-Ncs" secondAttribute="centerY" id="hT9-pm-dZg"/>
+                            <constraint firstItem="hnJ-A8-VaI" firstAttribute="centerY" secondItem="Xzu-MV-Ncs" secondAttribute="centerY" constant="-295" id="hT9-pm-dZg"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Steps" image="Image-32" id="f6g-4p-RJt"/>
@@ -1742,7 +1742,7 @@
             <objects>
                 <viewController id="uNX-pR-OtT" customClass="DietManagerVC" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gr3-fa-5b9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TOI-cv-pbO">
@@ -2175,11 +2175,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iNY-mm-dkc"/>
         <segue reference="Dld-gH-oCf"/>
         <segue reference="B4q-bZ-YMS"/>
         <segue reference="tcW-XI-VfV"/>
-        <segue reference="QVE-Gh-P2F"/>
+        <segue reference="XaB-7p-sxR"/>
         <segue reference="2Fj-wO-Csb"/>
     </inferredMetricsTieBreakers>
     <resources>
