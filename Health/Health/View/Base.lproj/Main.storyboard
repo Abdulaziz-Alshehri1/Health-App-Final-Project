@@ -87,7 +87,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CEd-WK-Apv"/>
-                        <color key="backgroundColor" red="0.94714553139115543" green="1" blue="0.9893523142354127" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.89743589743589747" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="yJA-V2-SPb" firstAttribute="centerY" secondItem="3rq-Df-EeO" secondAttribute="centerY" id="otT-Rb-aYu"/>
                             <constraint firstItem="yJA-V2-SPb" firstAttribute="centerX" secondItem="3rq-Df-EeO" secondAttribute="centerX" id="yGO-Ng-ae5"/>
@@ -745,11 +745,11 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="iq5-0x-fyc" customClass="FoodInterFace" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fo6-gZ-Geq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="IXP-na-Bvq">
-                                <rect key="frame" x="0.0" y="176" width="414" height="637"/>
+                                <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="y3b-FP-krF">
                                     <size key="itemSize" width="320" height="340"/>
@@ -796,7 +796,7 @@
                                 </cells>
                             </collectionView>
                             <searchBar contentMode="redraw" placeholder="Search any dish" translatesAutoresizingMaskIntoConstraints="NO" id="JNA-uE-Feq">
-                                <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="h6F-Mn-txn"/>
                                 </constraints>
@@ -819,7 +819,7 @@
                     <navigationItem key="navigationItem" id="snv-zI-FbF">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="itT-aU-tvo">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Yyt-x4-YJf">
-                                <rect key="frame" x="20" y="5" width="92" height="34"/>
+                                <rect key="frame" x="20" y="11" width="92" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="homekit" catalog="system">
@@ -847,21 +847,21 @@
             <objects>
                 <viewController id="K2L-M7-aZB" customClass="Specialist" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cHw-5U-CBT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SmE-nU-tAF">
-                                <rect key="frame" x="43" y="360" width="328" height="34"/>
+                                <rect key="frame" x="43" y="316" width="328" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PassWord" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TDF-z7-cxf">
-                                <rect key="frame" x="43" y="438" width="328" height="34"/>
+                                <rect key="frame" x="43" y="394" width="328" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRi-C4-16c">
-                                <rect key="frame" x="145" y="501" width="125" height="31"/>
+                                <rect key="frame" x="145" y="457" width="125" height="31"/>
                                 <color key="backgroundColor" red="0.51372551919999998" green="0.71764707569999997" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125" id="6xa-8i-3JW"/>
@@ -874,20 +874,20 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-54" translatesAutoresizingMaskIntoConstraints="NO" id="Led-tA-qF7">
-                                <rect key="frame" x="87" y="167" width="240" height="128"/>
+                                <rect key="frame" x="87" y="123" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="F8z-Qo-Xiu"/>
                                     <constraint firstAttribute="width" constant="240" id="Tea-FE-KbB"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To join us as a nutritionist / contact us " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJP-nK-4d9">
-                                <rect key="frame" x="32" y="589" width="351" height="20"/>
+                                <rect key="frame" x="32" y="545" width="351" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.51372551919999998" green="0.71764707569999997" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYf-QL-CUC">
-                                <rect key="frame" x="103" y="680" width="209" height="66"/>
+                                <rect key="frame" x="103" y="626" width="209" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="0SZ-8u-XtF"/>
                                     <constraint firstAttribute="width" constant="209" id="vRC-kO-DOr"/>
@@ -942,11 +942,11 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="Mq9-h1-TbZ" customClass="FoodVC" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DDX-I1-6Wc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64q-Pk-6xq">
-                                <rect key="frame" x="20" y="388" width="37.5" height="18"/>
+                                <rect key="frame" x="20" y="356" width="37.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -958,7 +958,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F3c-44-hbT">
-                                <rect key="frame" x="43" y="147" width="329" height="140"/>
+                                <rect key="frame" x="43" y="115" width="329" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="fFB-g6-fzp"/>
                                 </constraints>
@@ -1569,11 +1569,11 @@
             <objects>
                 <viewController id="kXp-yi-JXW" customClass="DietInterFace" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7pZ-7t-46G">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zAB-kh-08y">
-                                <rect key="frame" x="0.0" y="176" width="414" height="637"/>
+                                <rect key="frame" x="0.0" y="144" width="414" height="669"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Cog-aa-6hF">
                                     <size key="itemSize" width="320" height="340"/>
@@ -1639,7 +1639,7 @@
                                 </cells>
                             </collectionView>
                             <searchBar contentMode="redraw" placeholder="Search any Diet " translatesAutoresizingMaskIntoConstraints="NO" id="mmb-Jk-rue">
-                                <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Y6W-6g-ZOC"/>
                                 </constraints>
@@ -1663,7 +1663,7 @@
                     <navigationItem key="navigationItem" id="6oG-tl-ffH">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="SGE-v9-VAk">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="H8G-ga-QNS">
-                                <rect key="frame" x="20" y="5" width="92" height="34"/>
+                                <rect key="frame" x="20" y="11" width="92" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="homekit" catalog="system">
@@ -1690,11 +1690,11 @@
             <objects>
                 <viewController id="oGI-ft-19d" customClass="DietVC" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5CH-gG-OYq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5I-Bo-w4I">
-                                <rect key="frame" x="20" y="388" width="37.5" height="18"/>
+                                <rect key="frame" x="20" y="356" width="37.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1706,7 +1706,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KSf-Dn-7Fz">
-                                <rect key="frame" x="43" y="147" width="329" height="140"/>
+                                <rect key="frame" x="43" y="115" width="329" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="5bz-bJ-lMS"/>
                                 </constraints>
@@ -1742,7 +1742,7 @@
             <objects>
                 <viewController id="uNX-pR-OtT" customClass="DietManagerVC" customModule="Health" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gr3-fa-5b9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TOI-cv-pbO">
@@ -1984,7 +1984,7 @@
                     <tabBarItem key="tabBarItem" title="Healthy Dishes" image="Image-52" id="aAb-I3-fmj"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bU7-QY-FbU">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -2003,7 +2003,7 @@
                     <tabBarItem key="tabBarItem" title="Diet" image="Image-53" id="SUM-jf-WpK"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1tE-wQ-vi0">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -2176,8 +2176,8 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Dld-gH-oCf"/>
-        <segue reference="B4q-bZ-YMS"/>
-        <segue reference="tcW-XI-VfV"/>
+        <segue reference="i31-1q-BZm"/>
+        <segue reference="31i-Ch-4Pg"/>
         <segue reference="XaB-7p-sxR"/>
         <segue reference="2Fj-wO-Csb"/>
     </inferredMetricsTieBreakers>
