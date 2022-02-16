@@ -146,7 +146,7 @@ Exit model
 ```
 ### Git
 
-The url to your repository and to your deployed project
+The url to My repository and to your deployed project
 
 [Github Home Page Link](https://github.com/Abdulaziz-Alshehri1)
 
@@ -155,9 +155,9 @@ The url to your repository and to your deployed project
 
 --------------------------------------------------
 
- ## Slides
+ ## Presentation
 
-The url to your presentation slides
+The url to My Presentation slides
 
-[Slides Link](https://docs.google.com/presentation/d/1qccSTVk1yrIQKC3x9inwS0V-bisv_rEhlyh1criKGSA/edit?usp=sharing)
+[Presentation Link](https://docs.google.com/presentation/d/1qccSTVk1yrIQKC3x9inwS0V-bisv_rEhlyh1criKGSA/edit?usp=sharing)
 
