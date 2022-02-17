@@ -405,7 +405,7 @@
                                     <constraint firstAttribute="height" constant="25" id="rNe-ha-8RN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.49803921579999999" green="0.58823531870000001" blue="0.85490196939999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.46977902464917187" green="0.55378728983172421" blue="0.80581208537938143" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
